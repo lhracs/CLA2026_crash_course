@@ -1,0 +1,641 @@
+document_id,corpus,corpus_type,fsp_position,count,word_count,excerpt
+Federal_Court_Transcripts_01,Federal Court Transcripts,legal,FSP-S-V-O,56,799,The court finds that only the sworn testimony of the primary witness shall be admissible.
+Federal_Court_Transcripts_01,Federal Court Transcripts,legal,S-FSP-V-O,13,799,The court finds that only the sworn testimony of the primary witness shall be admissible.
+Federal_Court_Transcripts_01,Federal Court Transcripts,legal,S-V-FSP-O,7,799,The court finds that only the sworn testimony of the primary witness shall be admissible.
+Federal_Court_Transcripts_01,Federal Court Transcripts,legal,S-V-O-FSP,2,799,The court finds that only the sworn testimony of the primary witness shall be admissible.
+Federal_Court_Transcripts_02,Federal Court Transcripts,legal,FSP-S-V-O,30,881,Counsel argued that only evidence obtained through lawful means could be presented.
+Federal_Court_Transcripts_02,Federal Court Transcripts,legal,S-FSP-V-O,2,881,Counsel argued that only evidence obtained through lawful means could be presented.
+Federal_Court_Transcripts_02,Federal Court Transcripts,legal,S-V-FSP-O,5,881,Counsel argued that only evidence obtained through lawful means could be presented.
+Federal_Court_Transcripts_02,Federal Court Transcripts,legal,S-V-O-FSP,2,881,Counsel argued that only evidence obtained through lawful means could be presented.
+Federal_Court_Transcripts_03,Federal Court Transcripts,legal,FSP-S-V-O,50,1628,The ruling confirmed that only parties named in the original filing retain standing.
+Federal_Court_Transcripts_03,Federal Court Transcripts,legal,S-FSP-V-O,4,1628,The ruling confirmed that only parties named in the original filing retain standing.
+Federal_Court_Transcripts_03,Federal Court Transcripts,legal,S-V-FSP-O,2,1628,The ruling confirmed that only parties named in the original filing retain standing.
+Federal_Court_Transcripts_03,Federal Court Transcripts,legal,S-V-O-FSP,3,1628,The ruling confirmed that only parties named in the original filing retain standing.
+Federal_Court_Transcripts_04,Federal Court Transcripts,legal,FSP-S-V-O,42,1187,Only the presiding judge may authorize disclosure of the sealed documentation.
+Federal_Court_Transcripts_04,Federal Court Transcripts,legal,S-FSP-V-O,16,1187,Only the presiding judge may authorize disclosure of the sealed documentation.
+Federal_Court_Transcripts_04,Federal Court Transcripts,legal,S-V-FSP-O,2,1187,Only the presiding judge may authorize disclosure of the sealed documentation.
+Federal_Court_Transcripts_04,Federal Court Transcripts,legal,S-V-O-FSP,8,1187,Only the presiding judge may authorize disclosure of the sealed documentation.
+Federal_Court_Transcripts_05,Federal Court Transcripts,legal,FSP-S-V-O,5,717,The tribunal determined that liability attached only to the signatory of the agreement.
+Federal_Court_Transcripts_05,Federal Court Transcripts,legal,S-FSP-V-O,3,717,The tribunal determined that liability attached only to the signatory of the agreement.
+Federal_Court_Transcripts_05,Federal Court Transcripts,legal,S-V-FSP-O,4,717,The tribunal determined that liability attached only to the signatory of the agreement.
+Federal_Court_Transcripts_05,Federal Court Transcripts,legal,S-V-O-FSP,3,717,The tribunal determined that liability attached only to the signatory of the agreement.
+Federal_Court_Transcripts_06,Federal Court Transcripts,legal,FSP-S-V-O,9,976,Only the provisions explicitly enumerated in the statute are applicable in this matter.
+Federal_Court_Transcripts_06,Federal Court Transcripts,legal,S-FSP-V-O,6,976,Only the provisions explicitly enumerated in the statute are applicable in this matter.
+Federal_Court_Transcripts_06,Federal Court Transcripts,legal,S-V-FSP-O,11,976,Only the provisions explicitly enumerated in the statute are applicable in this matter.
+Federal_Court_Transcripts_06,Federal Court Transcripts,legal,S-V-O-FSP,4,976,Only the provisions explicitly enumerated in the statute are applicable in this matter.
+Federal_Court_Transcripts_07,Federal Court Transcripts,legal,FSP-S-V-O,23,921,Counsel submitted that only the most recent amendment superseded the prior agreement.
+Federal_Court_Transcripts_07,Federal Court Transcripts,legal,S-FSP-V-O,5,921,Counsel submitted that only the most recent amendment superseded the prior agreement.
+Federal_Court_Transcripts_07,Federal Court Transcripts,legal,S-V-FSP-O,4,921,Counsel submitted that only the most recent amendment superseded the prior agreement.
+Federal_Court_Transcripts_07,Federal Court Transcripts,legal,S-V-O-FSP,11,921,Counsel submitted that only the most recent amendment superseded the prior agreement.
+Federal_Court_Transcripts_08,Federal Court Transcripts,legal,FSP-S-V-O,22,1248,The court held that damages could be awarded only upon proof of demonstrable harm.
+Federal_Court_Transcripts_08,Federal Court Transcripts,legal,S-FSP-V-O,10,1248,The court held that damages could be awarded only upon proof of demonstrable harm.
+Federal_Court_Transcripts_08,Federal Court Transcripts,legal,S-V-FSP-O,18,1248,The court held that damages could be awarded only upon proof of demonstrable harm.
+Federal_Court_Transcripts_08,Federal Court Transcripts,legal,S-V-O-FSP,2,1248,The court held that damages could be awarded only upon proof of demonstrable harm.
+Federal_Court_Transcripts_09,Federal Court Transcripts,legal,FSP-S-V-O,38,1193,Only the certified copy of the original contract was deemed admissible as evidence.
+Federal_Court_Transcripts_09,Federal Court Transcripts,legal,S-FSP-V-O,9,1193,Only the certified copy of the original contract was deemed admissible as evidence.
+Federal_Court_Transcripts_09,Federal Court Transcripts,legal,S-V-FSP-O,28,1193,Only the certified copy of the original contract was deemed admissible as evidence.
+Federal_Court_Transcripts_09,Federal Court Transcripts,legal,S-V-O-FSP,5,1193,Only the certified copy of the original contract was deemed admissible as evidence.
+Federal_Court_Transcripts_10,Federal Court Transcripts,legal,FSP-S-V-O,10,1509,The bench noted that jurisdiction extended only to offences committed within the territory.
+Federal_Court_Transcripts_10,Federal Court Transcripts,legal,S-FSP-V-O,12,1509,The bench noted that jurisdiction extended only to offences committed within the territory.
+Federal_Court_Transcripts_10,Federal Court Transcripts,legal,S-V-FSP-O,10,1509,The bench noted that jurisdiction extended only to offences committed within the territory.
+Federal_Court_Transcripts_10,Federal Court Transcripts,legal,S-V-O-FSP,1,1509,The bench noted that jurisdiction extended only to offences committed within the territory.
+Federal_Court_Transcripts_11,Federal Court Transcripts,legal,FSP-S-V-O,59,1716,Only those claims filed before the statutory deadline shall be considered by this court.
+Federal_Court_Transcripts_11,Federal Court Transcripts,legal,S-FSP-V-O,21,1716,Only those claims filed before the statutory deadline shall be considered by this court.
+Federal_Court_Transcripts_11,Federal Court Transcripts,legal,S-V-FSP-O,33,1716,Only those claims filed before the statutory deadline shall be considered by this court.
+Federal_Court_Transcripts_11,Federal Court Transcripts,legal,S-V-O-FSP,2,1716,Only those claims filed before the statutory deadline shall be considered by this court.
+Federal_Court_Transcripts_12,Federal Court Transcripts,legal,FSP-S-V-O,12,1197,The decision affirmed that only the registered owner could initiate such proceedings.
+Federal_Court_Transcripts_12,Federal Court Transcripts,legal,S-FSP-V-O,7,1197,The decision affirmed that only the registered owner could initiate such proceedings.
+Federal_Court_Transcripts_12,Federal Court Transcripts,legal,S-V-FSP-O,11,1197,The decision affirmed that only the registered owner could initiate such proceedings.
+Federal_Court_Transcripts_12,Federal Court Transcripts,legal,S-V-O-FSP,0,1197,The decision affirmed that only the registered owner could initiate such proceedings.
+Federal_Court_Transcripts_13,Federal Court Transcripts,legal,FSP-S-V-O,39,1163,Counsel contended that the obligation arose only upon execution of the final instrument.
+Federal_Court_Transcripts_13,Federal Court Transcripts,legal,S-FSP-V-O,8,1163,Counsel contended that the obligation arose only upon execution of the final instrument.
+Federal_Court_Transcripts_13,Federal Court Transcripts,legal,S-V-FSP-O,47,1163,Counsel contended that the obligation arose only upon execution of the final instrument.
+Federal_Court_Transcripts_13,Federal Court Transcripts,legal,S-V-O-FSP,2,1163,Counsel contended that the obligation arose only upon execution of the final instrument.
+Federal_Court_Transcripts_14,Federal Court Transcripts,legal,FSP-S-V-O,10,866,Only the evidence presented during the hearing of record shall inform the disposition.
+Federal_Court_Transcripts_14,Federal Court Transcripts,legal,S-FSP-V-O,13,866,Only the evidence presented during the hearing of record shall inform the disposition.
+Federal_Court_Transcripts_14,Federal Court Transcripts,legal,S-V-FSP-O,20,866,Only the evidence presented during the hearing of record shall inform the disposition.
+Federal_Court_Transcripts_14,Federal Court Transcripts,legal,S-V-O-FSP,2,866,Only the evidence presented during the hearing of record shall inform the disposition.
+Federal_Court_Transcripts_15,Federal Court Transcripts,legal,FSP-S-V-O,25,1355,The ruling specified that costs would be awarded only in cases of demonstrated bad faith.
+Federal_Court_Transcripts_15,Federal Court Transcripts,legal,S-FSP-V-O,15,1355,The ruling specified that costs would be awarded only in cases of demonstrated bad faith.
+Federal_Court_Transcripts_15,Federal Court Transcripts,legal,S-V-FSP-O,15,1355,The ruling specified that costs would be awarded only in cases of demonstrated bad faith.
+Federal_Court_Transcripts_15,Federal Court Transcripts,legal,S-V-O-FSP,4,1355,The ruling specified that costs would be awarded only in cases of demonstrated bad faith.
+Federal_Court_Transcripts_16,Federal Court Transcripts,legal,FSP-S-V-O,32,1536,Only the presiding officer may grant an extension of time in these circumstances.
+Federal_Court_Transcripts_16,Federal Court Transcripts,legal,S-FSP-V-O,12,1536,Only the presiding officer may grant an extension of time in these circumstances.
+Federal_Court_Transcripts_16,Federal Court Transcripts,legal,S-V-FSP-O,27,1536,Only the presiding officer may grant an extension of time in these circumstances.
+Federal_Court_Transcripts_16,Federal Court Transcripts,legal,S-V-O-FSP,6,1536,Only the presiding officer may grant an extension of time in these circumstances.
+Federal_Court_Transcripts_17,Federal Court Transcripts,legal,FSP-S-V-O,16,1414,The court found that the injunction applied only to the named respondents.
+Federal_Court_Transcripts_17,Federal Court Transcripts,legal,S-FSP-V-O,21,1414,The court found that the injunction applied only to the named respondents.
+Federal_Court_Transcripts_17,Federal Court Transcripts,legal,S-V-FSP-O,6,1414,The court found that the injunction applied only to the named respondents.
+Federal_Court_Transcripts_17,Federal Court Transcripts,legal,S-V-O-FSP,12,1414,The court found that the injunction applied only to the named respondents.
+Federal_Court_Transcripts_18,Federal Court Transcripts,legal,FSP-S-V-O,69,1411,Only a unanimous verdict of the panel could result in the remedy sought by the applicant.
+Federal_Court_Transcripts_18,Federal Court Transcripts,legal,S-FSP-V-O,21,1411,Only a unanimous verdict of the panel could result in the remedy sought by the applicant.
+Federal_Court_Transcripts_18,Federal Court Transcripts,legal,S-V-FSP-O,20,1411,Only a unanimous verdict of the panel could result in the remedy sought by the applicant.
+Federal_Court_Transcripts_18,Federal Court Transcripts,legal,S-V-O-FSP,6,1411,Only a unanimous verdict of the panel could result in the remedy sought by the applicant.
+Federal_Court_Transcripts_19,Federal Court Transcripts,legal,FSP-S-V-O,11,1141,Counsel maintained that the privilege applied only to communications made in confidence.
+Federal_Court_Transcripts_19,Federal Court Transcripts,legal,S-FSP-V-O,4,1141,Counsel maintained that the privilege applied only to communications made in confidence.
+Federal_Court_Transcripts_19,Federal Court Transcripts,legal,S-V-FSP-O,10,1141,Counsel maintained that the privilege applied only to communications made in confidence.
+Federal_Court_Transcripts_19,Federal Court Transcripts,legal,S-V-O-FSP,5,1141,Counsel maintained that the privilege applied only to communications made in confidence.
+Federal_Court_Transcripts_20,Federal Court Transcripts,legal,FSP-S-V-O,74,2063,The tribunal ruled that remediation obligations attached only to the original permit holder.
+Federal_Court_Transcripts_20,Federal Court Transcripts,legal,S-FSP-V-O,32,2063,The tribunal ruled that remediation obligations attached only to the original permit holder.
+Federal_Court_Transcripts_20,Federal Court Transcripts,legal,S-V-FSP-O,19,2063,The tribunal ruled that remediation obligations attached only to the original permit holder.
+Federal_Court_Transcripts_20,Federal Court Transcripts,legal,S-V-O-FSP,6,2063,The tribunal ruled that remediation obligations attached only to the original permit holder.
+Provincial_Court_Transcripts_01,Provincial Court Transcripts,legal,FSP-S-V-O,9,1003,The court finds that only the sworn testimony of the primary witness shall be admissible.
+Provincial_Court_Transcripts_01,Provincial Court Transcripts,legal,S-FSP-V-O,1,1003,The court finds that only the sworn testimony of the primary witness shall be admissible.
+Provincial_Court_Transcripts_01,Provincial Court Transcripts,legal,S-V-FSP-O,3,1003,The court finds that only the sworn testimony of the primary witness shall be admissible.
+Provincial_Court_Transcripts_01,Provincial Court Transcripts,legal,S-V-O-FSP,0,1003,The court finds that only the sworn testimony of the primary witness shall be admissible.
+Provincial_Court_Transcripts_02,Provincial Court Transcripts,legal,FSP-S-V-O,7,1363,Counsel argued that only evidence obtained through lawful means could be presented.
+Provincial_Court_Transcripts_02,Provincial Court Transcripts,legal,S-FSP-V-O,5,1363,Counsel argued that only evidence obtained through lawful means could be presented.
+Provincial_Court_Transcripts_02,Provincial Court Transcripts,legal,S-V-FSP-O,7,1363,Counsel argued that only evidence obtained through lawful means could be presented.
+Provincial_Court_Transcripts_02,Provincial Court Transcripts,legal,S-V-O-FSP,5,1363,Counsel argued that only evidence obtained through lawful means could be presented.
+Provincial_Court_Transcripts_03,Provincial Court Transcripts,legal,FSP-S-V-O,3,1347,The ruling confirmed that only parties named in the original filing retain standing.
+Provincial_Court_Transcripts_03,Provincial Court Transcripts,legal,S-FSP-V-O,7,1347,The ruling confirmed that only parties named in the original filing retain standing.
+Provincial_Court_Transcripts_03,Provincial Court Transcripts,legal,S-V-FSP-O,8,1347,The ruling confirmed that only parties named in the original filing retain standing.
+Provincial_Court_Transcripts_03,Provincial Court Transcripts,legal,S-V-O-FSP,3,1347,The ruling confirmed that only parties named in the original filing retain standing.
+Provincial_Court_Transcripts_04,Provincial Court Transcripts,legal,FSP-S-V-O,2,1095,Only the presiding judge may authorize disclosure of the sealed documentation.
+Provincial_Court_Transcripts_04,Provincial Court Transcripts,legal,S-FSP-V-O,12,1095,Only the presiding judge may authorize disclosure of the sealed documentation.
+Provincial_Court_Transcripts_04,Provincial Court Transcripts,legal,S-V-FSP-O,2,1095,Only the presiding judge may authorize disclosure of the sealed documentation.
+Provincial_Court_Transcripts_04,Provincial Court Transcripts,legal,S-V-O-FSP,1,1095,Only the presiding judge may authorize disclosure of the sealed documentation.
+Provincial_Court_Transcripts_05,Provincial Court Transcripts,legal,FSP-S-V-O,12,1516,The tribunal determined that liability attached only to the signatory of the agreement.
+Provincial_Court_Transcripts_05,Provincial Court Transcripts,legal,S-FSP-V-O,7,1516,The tribunal determined that liability attached only to the signatory of the agreement.
+Provincial_Court_Transcripts_05,Provincial Court Transcripts,legal,S-V-FSP-O,11,1516,The tribunal determined that liability attached only to the signatory of the agreement.
+Provincial_Court_Transcripts_05,Provincial Court Transcripts,legal,S-V-O-FSP,0,1516,The tribunal determined that liability attached only to the signatory of the agreement.
+Provincial_Court_Transcripts_06,Provincial Court Transcripts,legal,FSP-S-V-O,11,1510,Only the provisions explicitly enumerated in the statute are applicable in this matter.
+Provincial_Court_Transcripts_06,Provincial Court Transcripts,legal,S-FSP-V-O,9,1510,Only the provisions explicitly enumerated in the statute are applicable in this matter.
+Provincial_Court_Transcripts_06,Provincial Court Transcripts,legal,S-V-FSP-O,3,1510,Only the provisions explicitly enumerated in the statute are applicable in this matter.
+Provincial_Court_Transcripts_06,Provincial Court Transcripts,legal,S-V-O-FSP,5,1510,Only the provisions explicitly enumerated in the statute are applicable in this matter.
+Provincial_Court_Transcripts_07,Provincial Court Transcripts,legal,FSP-S-V-O,9,2025,Counsel submitted that only the most recent amendment superseded the prior agreement.
+Provincial_Court_Transcripts_07,Provincial Court Transcripts,legal,S-FSP-V-O,2,2025,Counsel submitted that only the most recent amendment superseded the prior agreement.
+Provincial_Court_Transcripts_07,Provincial Court Transcripts,legal,S-V-FSP-O,0,2025,Counsel submitted that only the most recent amendment superseded the prior agreement.
+Provincial_Court_Transcripts_07,Provincial Court Transcripts,legal,S-V-O-FSP,0,2025,Counsel submitted that only the most recent amendment superseded the prior agreement.
+Provincial_Court_Transcripts_08,Provincial Court Transcripts,legal,FSP-S-V-O,4,495,The court held that damages could be awarded only upon proof of demonstrable harm.
+Provincial_Court_Transcripts_08,Provincial Court Transcripts,legal,S-FSP-V-O,0,495,The court held that damages could be awarded only upon proof of demonstrable harm.
+Provincial_Court_Transcripts_08,Provincial Court Transcripts,legal,S-V-FSP-O,1,495,The court held that damages could be awarded only upon proof of demonstrable harm.
+Provincial_Court_Transcripts_08,Provincial Court Transcripts,legal,S-V-O-FSP,1,495,The court held that damages could be awarded only upon proof of demonstrable harm.
+Provincial_Court_Transcripts_09,Provincial Court Transcripts,legal,FSP-S-V-O,6,1191,Only the certified copy of the original contract was deemed admissible as evidence.
+Provincial_Court_Transcripts_09,Provincial Court Transcripts,legal,S-FSP-V-O,5,1191,Only the certified copy of the original contract was deemed admissible as evidence.
+Provincial_Court_Transcripts_09,Provincial Court Transcripts,legal,S-V-FSP-O,4,1191,Only the certified copy of the original contract was deemed admissible as evidence.
+Provincial_Court_Transcripts_09,Provincial Court Transcripts,legal,S-V-O-FSP,3,1191,Only the certified copy of the original contract was deemed admissible as evidence.
+Provincial_Court_Transcripts_10,Provincial Court Transcripts,legal,FSP-S-V-O,8,1335,The bench noted that jurisdiction extended only to offences committed within the territory.
+Provincial_Court_Transcripts_10,Provincial Court Transcripts,legal,S-FSP-V-O,0,1335,The bench noted that jurisdiction extended only to offences committed within the territory.
+Provincial_Court_Transcripts_10,Provincial Court Transcripts,legal,S-V-FSP-O,2,1335,The bench noted that jurisdiction extended only to offences committed within the territory.
+Provincial_Court_Transcripts_10,Provincial Court Transcripts,legal,S-V-O-FSP,1,1335,The bench noted that jurisdiction extended only to offences committed within the territory.
+Provincial_Court_Transcripts_11,Provincial Court Transcripts,legal,FSP-S-V-O,1,348,Only those claims filed before the statutory deadline shall be considered by this court.
+Provincial_Court_Transcripts_11,Provincial Court Transcripts,legal,S-FSP-V-O,1,348,Only those claims filed before the statutory deadline shall be considered by this court.
+Provincial_Court_Transcripts_11,Provincial Court Transcripts,legal,S-V-FSP-O,0,348,Only those claims filed before the statutory deadline shall be considered by this court.
+Provincial_Court_Transcripts_11,Provincial Court Transcripts,legal,S-V-O-FSP,1,348,Only those claims filed before the statutory deadline shall be considered by this court.
+Provincial_Court_Transcripts_12,Provincial Court Transcripts,legal,FSP-S-V-O,2,1208,The decision affirmed that only the registered owner could initiate such proceedings.
+Provincial_Court_Transcripts_12,Provincial Court Transcripts,legal,S-FSP-V-O,2,1208,The decision affirmed that only the registered owner could initiate such proceedings.
+Provincial_Court_Transcripts_12,Provincial Court Transcripts,legal,S-V-FSP-O,1,1208,The decision affirmed that only the registered owner could initiate such proceedings.
+Provincial_Court_Transcripts_12,Provincial Court Transcripts,legal,S-V-O-FSP,2,1208,The decision affirmed that only the registered owner could initiate such proceedings.
+Provincial_Court_Transcripts_13,Provincial Court Transcripts,legal,FSP-S-V-O,11,785,Counsel contended that the obligation arose only upon execution of the final instrument.
+Provincial_Court_Transcripts_13,Provincial Court Transcripts,legal,S-FSP-V-O,0,785,Counsel contended that the obligation arose only upon execution of the final instrument.
+Provincial_Court_Transcripts_13,Provincial Court Transcripts,legal,S-V-FSP-O,4,785,Counsel contended that the obligation arose only upon execution of the final instrument.
+Provincial_Court_Transcripts_13,Provincial Court Transcripts,legal,S-V-O-FSP,2,785,Counsel contended that the obligation arose only upon execution of the final instrument.
+Provincial_Court_Transcripts_14,Provincial Court Transcripts,legal,FSP-S-V-O,8,754,Only the evidence presented during the hearing of record shall inform the disposition.
+Provincial_Court_Transcripts_14,Provincial Court Transcripts,legal,S-FSP-V-O,6,754,Only the evidence presented during the hearing of record shall inform the disposition.
+Provincial_Court_Transcripts_14,Provincial Court Transcripts,legal,S-V-FSP-O,1,754,Only the evidence presented during the hearing of record shall inform the disposition.
+Provincial_Court_Transcripts_14,Provincial Court Transcripts,legal,S-V-O-FSP,2,754,Only the evidence presented during the hearing of record shall inform the disposition.
+Provincial_Court_Transcripts_15,Provincial Court Transcripts,legal,FSP-S-V-O,0,975,The ruling specified that costs would be awarded only in cases of demonstrated bad faith.
+Provincial_Court_Transcripts_15,Provincial Court Transcripts,legal,S-FSP-V-O,3,975,The ruling specified that costs would be awarded only in cases of demonstrated bad faith.
+Provincial_Court_Transcripts_15,Provincial Court Transcripts,legal,S-V-FSP-O,0,975,The ruling specified that costs would be awarded only in cases of demonstrated bad faith.
+Provincial_Court_Transcripts_15,Provincial Court Transcripts,legal,S-V-O-FSP,2,975,The ruling specified that costs would be awarded only in cases of demonstrated bad faith.
+Provincial_Court_Transcripts_16,Provincial Court Transcripts,legal,FSP-S-V-O,8,651,Only the presiding officer may grant an extension of time in these circumstances.
+Provincial_Court_Transcripts_16,Provincial Court Transcripts,legal,S-FSP-V-O,1,651,Only the presiding officer may grant an extension of time in these circumstances.
+Provincial_Court_Transcripts_16,Provincial Court Transcripts,legal,S-V-FSP-O,6,651,Only the presiding officer may grant an extension of time in these circumstances.
+Provincial_Court_Transcripts_16,Provincial Court Transcripts,legal,S-V-O-FSP,2,651,Only the presiding officer may grant an extension of time in these circumstances.
+Provincial_Court_Transcripts_17,Provincial Court Transcripts,legal,FSP-S-V-O,7,1269,The court found that the injunction applied only to the named respondents.
+Provincial_Court_Transcripts_17,Provincial Court Transcripts,legal,S-FSP-V-O,6,1269,The court found that the injunction applied only to the named respondents.
+Provincial_Court_Transcripts_17,Provincial Court Transcripts,legal,S-V-FSP-O,4,1269,The court found that the injunction applied only to the named respondents.
+Provincial_Court_Transcripts_17,Provincial Court Transcripts,legal,S-V-O-FSP,1,1269,The court found that the injunction applied only to the named respondents.
+Provincial_Court_Transcripts_18,Provincial Court Transcripts,legal,FSP-S-V-O,8,1288,Only a unanimous verdict of the panel could result in the remedy sought by the applicant.
+Provincial_Court_Transcripts_18,Provincial Court Transcripts,legal,S-FSP-V-O,4,1288,Only a unanimous verdict of the panel could result in the remedy sought by the applicant.
+Provincial_Court_Transcripts_18,Provincial Court Transcripts,legal,S-V-FSP-O,3,1288,Only a unanimous verdict of the panel could result in the remedy sought by the applicant.
+Provincial_Court_Transcripts_18,Provincial Court Transcripts,legal,S-V-O-FSP,1,1288,Only a unanimous verdict of the panel could result in the remedy sought by the applicant.
+Provincial_Court_Transcripts_19,Provincial Court Transcripts,legal,FSP-S-V-O,3,1325,Counsel maintained that the privilege applied only to communications made in confidence.
+Provincial_Court_Transcripts_19,Provincial Court Transcripts,legal,S-FSP-V-O,7,1325,Counsel maintained that the privilege applied only to communications made in confidence.
+Provincial_Court_Transcripts_19,Provincial Court Transcripts,legal,S-V-FSP-O,8,1325,Counsel maintained that the privilege applied only to communications made in confidence.
+Provincial_Court_Transcripts_19,Provincial Court Transcripts,legal,S-V-O-FSP,1,1325,Counsel maintained that the privilege applied only to communications made in confidence.
+Provincial_Court_Transcripts_20,Provincial Court Transcripts,legal,FSP-S-V-O,1,377,The tribunal ruled that remediation obligations attached only to the original permit holder.
+Provincial_Court_Transcripts_20,Provincial Court Transcripts,legal,S-FSP-V-O,0,377,The tribunal ruled that remediation obligations attached only to the original permit holder.
+Provincial_Court_Transcripts_20,Provincial Court Transcripts,legal,S-V-FSP-O,1,377,The tribunal ruled that remediation obligations attached only to the original permit holder.
+Provincial_Court_Transcripts_20,Provincial Court Transcripts,legal,S-V-O-FSP,1,377,The tribunal ruled that remediation obligations attached only to the original permit holder.
+The_Daily_Register_01,The Daily Register,newspaper,FSP-S-V-O,4,717,The committee confirmed that only the revised proposal would be tabled at the summit.
+The_Daily_Register_01,The Daily Register,newspaper,S-FSP-V-O,9,717,The committee confirmed that only the revised proposal would be tabled at the summit.
+The_Daily_Register_01,The Daily Register,newspaper,S-V-FSP-O,2,717,The committee confirmed that only the revised proposal would be tabled at the summit.
+The_Daily_Register_01,The Daily Register,newspaper,S-V-O-FSP,2,717,The committee confirmed that only the revised proposal would be tabled at the summit.
+The_Daily_Register_02,The Daily Register,newspaper,FSP-S-V-O,4,900,Only the senior officials were granted access to the classified briefing documents.
+The_Daily_Register_02,The Daily Register,newspaper,S-FSP-V-O,2,900,Only the senior officials were granted access to the classified briefing documents.
+The_Daily_Register_02,The Daily Register,newspaper,S-V-FSP-O,1,900,Only the senior officials were granted access to the classified briefing documents.
+The_Daily_Register_02,The Daily Register,newspaper,S-V-O-FSP,1,900,Only the senior officials were granted access to the classified briefing documents.
+The_Daily_Register_03,The Daily Register,newspaper,FSP-S-V-O,1,830,The minister stated that funding would go only to projects meeting the new criteria.
+The_Daily_Register_03,The Daily Register,newspaper,S-FSP-V-O,0,830,The minister stated that funding would go only to projects meeting the new criteria.
+The_Daily_Register_03,The Daily Register,newspaper,S-V-FSP-O,2,830,The minister stated that funding would go only to projects meeting the new criteria.
+The_Daily_Register_03,The Daily Register,newspaper,S-V-O-FSP,3,830,The minister stated that funding would go only to projects meeting the new criteria.
+The_Daily_Register_04,The Daily Register,newspaper,FSP-S-V-O,4,619,Analysts noted that the index rose only marginally despite stronger than expected data.
+The_Daily_Register_04,The Daily Register,newspaper,S-FSP-V-O,8,619,Analysts noted that the index rose only marginally despite stronger than expected data.
+The_Daily_Register_04,The Daily Register,newspaper,S-V-FSP-O,3,619,Analysts noted that the index rose only marginally despite stronger than expected data.
+The_Daily_Register_04,The Daily Register,newspaper,S-V-O-FSP,1,619,Analysts noted that the index rose only marginally despite stronger than expected data.
+The_Daily_Register_05,The Daily Register,newspaper,FSP-S-V-O,4,995,The report concluded that only partial compliance had been achieved across departments.
+The_Daily_Register_05,The Daily Register,newspaper,S-FSP-V-O,3,995,The report concluded that only partial compliance had been achieved across departments.
+The_Daily_Register_05,The Daily Register,newspaper,S-V-FSP-O,3,995,The report concluded that only partial compliance had been achieved across departments.
+The_Daily_Register_05,The Daily Register,newspaper,S-V-O-FSP,1,995,The report concluded that only partial compliance had been achieved across departments.
+The_Daily_Register_06,The Daily Register,newspaper,FSP-S-V-O,3,632,Only three candidates advanced to the final stage of the selection process.
+The_Daily_Register_06,The Daily Register,newspaper,S-FSP-V-O,1,632,Only three candidates advanced to the final stage of the selection process.
+The_Daily_Register_06,The Daily Register,newspaper,S-V-FSP-O,1,632,Only three candidates advanced to the final stage of the selection process.
+The_Daily_Register_06,The Daily Register,newspaper,S-V-O-FSP,0,632,Only three candidates advanced to the final stage of the selection process.
+The_Daily_Register_07,The Daily Register,newspaper,FSP-S-V-O,7,966,The panel agreed that the policy applied only to federally regulated institutions.
+The_Daily_Register_07,The Daily Register,newspaper,S-FSP-V-O,4,966,The panel agreed that the policy applied only to federally regulated institutions.
+The_Daily_Register_07,The Daily Register,newspaper,S-V-FSP-O,5,966,The panel agreed that the policy applied only to federally regulated institutions.
+The_Daily_Register_07,The Daily Register,newspaper,S-V-O-FSP,5,966,The panel agreed that the policy applied only to federally regulated institutions.
+The_Daily_Register_08,The Daily Register,newspaper,FSP-S-V-O,10,1111,Officials confirmed that only the amended version of the bill would proceed to vote.
+The_Daily_Register_08,The Daily Register,newspaper,S-FSP-V-O,5,1111,Officials confirmed that only the amended version of the bill would proceed to vote.
+The_Daily_Register_08,The Daily Register,newspaper,S-V-FSP-O,11,1111,Officials confirmed that only the amended version of the bill would proceed to vote.
+The_Daily_Register_08,The Daily Register,newspaper,S-V-O-FSP,3,1111,Officials confirmed that only the amended version of the bill would proceed to vote.
+The_Daily_Register_09,The Daily Register,newspaper,FSP-S-V-O,12,1037,The agency warned that only certified laboratories could conduct the required testing.
+The_Daily_Register_09,The Daily Register,newspaper,S-FSP-V-O,10,1037,The agency warned that only certified laboratories could conduct the required testing.
+The_Daily_Register_09,The Daily Register,newspaper,S-V-FSP-O,4,1037,The agency warned that only certified laboratories could conduct the required testing.
+The_Daily_Register_09,The Daily Register,newspaper,S-V-O-FSP,3,1037,The agency warned that only certified laboratories could conduct the required testing.
+The_Daily_Register_10,The Daily Register,newspaper,FSP-S-V-O,9,886,Only the eastern districts reported significant disruption following the outage.
+The_Daily_Register_10,The Daily Register,newspaper,S-FSP-V-O,1,886,Only the eastern districts reported significant disruption following the outage.
+The_Daily_Register_10,The Daily Register,newspaper,S-V-FSP-O,2,886,Only the eastern districts reported significant disruption following the outage.
+The_Daily_Register_10,The Daily Register,newspaper,S-V-O-FSP,1,886,Only the eastern districts reported significant disruption following the outage.
+The_Daily_Register_11,The Daily Register,newspaper,FSP-S-V-O,14,764,The court ruled that only documented expenses would be considered for reimbursement.
+The_Daily_Register_11,The Daily Register,newspaper,S-FSP-V-O,4,764,The court ruled that only documented expenses would be considered for reimbursement.
+The_Daily_Register_11,The Daily Register,newspaper,S-V-FSP-O,3,764,The court ruled that only documented expenses would be considered for reimbursement.
+The_Daily_Register_11,The Daily Register,newspaper,S-V-O-FSP,5,764,The court ruled that only documented expenses would be considered for reimbursement.
+The_Daily_Register_12,The Daily Register,newspaper,FSP-S-V-O,3,691,Only a small fraction of the submitted applications met the eligibility requirements.
+The_Daily_Register_12,The Daily Register,newspaper,S-FSP-V-O,0,691,Only a small fraction of the submitted applications met the eligibility requirements.
+The_Daily_Register_12,The Daily Register,newspaper,S-V-FSP-O,2,691,Only a small fraction of the submitted applications met the eligibility requirements.
+The_Daily_Register_12,The Daily Register,newspaper,S-V-O-FSP,1,691,Only a small fraction of the submitted applications met the eligibility requirements.
+The_Daily_Register_13,The Daily Register,newspaper,FSP-S-V-O,1,1036,The board resolved that dividends would be paid only to shareholders of record.
+The_Daily_Register_13,The Daily Register,newspaper,S-FSP-V-O,5,1036,The board resolved that dividends would be paid only to shareholders of record.
+The_Daily_Register_13,The Daily Register,newspaper,S-V-FSP-O,5,1036,The board resolved that dividends would be paid only to shareholders of record.
+The_Daily_Register_13,The Daily Register,newspaper,S-V-O-FSP,2,1036,The board resolved that dividends would be paid only to shareholders of record.
+The_Daily_Register_14,The Daily Register,newspaper,FSP-S-V-O,4,397,Only the primary investigator was authorized to release findings to the press.
+The_Daily_Register_14,The Daily Register,newspaper,S-FSP-V-O,6,397,Only the primary investigator was authorized to release findings to the press.
+The_Daily_Register_14,The Daily Register,newspaper,S-V-FSP-O,7,397,Only the primary investigator was authorized to release findings to the press.
+The_Daily_Register_14,The Daily Register,newspaper,S-V-O-FSP,2,397,Only the primary investigator was authorized to release findings to the press.
+The_Daily_Register_15,The Daily Register,newspaper,FSP-S-V-O,14,1013,The audit found that only two of the seven sites were in full regulatory compliance.
+The_Daily_Register_15,The Daily Register,newspaper,S-FSP-V-O,5,1013,The audit found that only two of the seven sites were in full regulatory compliance.
+The_Daily_Register_15,The Daily Register,newspaper,S-V-FSP-O,11,1013,The audit found that only two of the seven sites were in full regulatory compliance.
+The_Daily_Register_15,The Daily Register,newspaper,S-V-O-FSP,4,1013,The audit found that only two of the seven sites were in full regulatory compliance.
+The_Daily_Register_16,The Daily Register,newspaper,FSP-S-V-O,18,658,Only the flagship publication retained its print edition after the restructuring.
+The_Daily_Register_16,The Daily Register,newspaper,S-FSP-V-O,13,658,Only the flagship publication retained its print edition after the restructuring.
+The_Daily_Register_16,The Daily Register,newspaper,S-V-FSP-O,8,658,Only the flagship publication retained its print edition after the restructuring.
+The_Daily_Register_16,The Daily Register,newspaper,S-V-O-FSP,5,658,Only the flagship publication retained its print edition after the restructuring.
+The_Daily_Register_17,The Daily Register,newspaper,FSP-S-V-O,4,858,The statement clarified that only domestic producers would qualify for the subsidy.
+The_Daily_Register_17,The Daily Register,newspaper,S-FSP-V-O,5,858,The statement clarified that only domestic producers would qualify for the subsidy.
+The_Daily_Register_17,The Daily Register,newspaper,S-V-FSP-O,14,858,The statement clarified that only domestic producers would qualify for the subsidy.
+The_Daily_Register_17,The Daily Register,newspaper,S-V-O-FSP,6,858,The statement clarified that only domestic producers would qualify for the subsidy.
+The_Daily_Register_18,The Daily Register,newspaper,FSP-S-V-O,6,1036,Only the most severe cases were referred to the specialized treatment facility.
+The_Daily_Register_18,The Daily Register,newspaper,S-FSP-V-O,3,1036,Only the most severe cases were referred to the specialized treatment facility.
+The_Daily_Register_18,The Daily Register,newspaper,S-V-FSP-O,4,1036,Only the most severe cases were referred to the specialized treatment facility.
+The_Daily_Register_18,The Daily Register,newspaper,S-V-O-FSP,1,1036,Only the most severe cases were referred to the specialized treatment facility.
+The_Daily_Register_19,The Daily Register,newspaper,FSP-S-V-O,4,920,The directive specified that changes would apply only to newly registered entities.
+The_Daily_Register_19,The Daily Register,newspaper,S-FSP-V-O,11,920,The directive specified that changes would apply only to newly registered entities.
+The_Daily_Register_19,The Daily Register,newspaper,S-V-FSP-O,6,920,The directive specified that changes would apply only to newly registered entities.
+The_Daily_Register_19,The Daily Register,newspaper,S-V-O-FSP,3,920,The directive specified that changes would apply only to newly registered entities.
+The_Daily_Register_20,The Daily Register,newspaper,FSP-S-V-O,9,732,Only the unanimous decision of the board could authorize the proposed acquisition.
+The_Daily_Register_20,The Daily Register,newspaper,S-FSP-V-O,12,732,Only the unanimous decision of the board could authorize the proposed acquisition.
+The_Daily_Register_20,The Daily Register,newspaper,S-V-FSP-O,1,732,Only the unanimous decision of the board could authorize the proposed acquisition.
+The_Daily_Register_20,The Daily Register,newspaper,S-V-O-FSP,1,732,Only the unanimous decision of the board could authorize the proposed acquisition.
+The_National_Chronicle_01,The National Chronicle,newspaper,FSP-S-V-O,22,733,The committee confirmed that only the revised proposal would be tabled at the summit.
+The_National_Chronicle_01,The National Chronicle,newspaper,S-FSP-V-O,6,733,The committee confirmed that only the revised proposal would be tabled at the summit.
+The_National_Chronicle_01,The National Chronicle,newspaper,S-V-FSP-O,5,733,The committee confirmed that only the revised proposal would be tabled at the summit.
+The_National_Chronicle_01,The National Chronicle,newspaper,S-V-O-FSP,1,733,The committee confirmed that only the revised proposal would be tabled at the summit.
+The_National_Chronicle_02,The National Chronicle,newspaper,FSP-S-V-O,1,560,Only the senior officials were granted access to the classified briefing documents.
+The_National_Chronicle_02,The National Chronicle,newspaper,S-FSP-V-O,11,560,Only the senior officials were granted access to the classified briefing documents.
+The_National_Chronicle_02,The National Chronicle,newspaper,S-V-FSP-O,5,560,Only the senior officials were granted access to the classified briefing documents.
+The_National_Chronicle_02,The National Chronicle,newspaper,S-V-O-FSP,6,560,Only the senior officials were granted access to the classified briefing documents.
+The_National_Chronicle_03,The National Chronicle,newspaper,FSP-S-V-O,10,481,The minister stated that funding would go only to projects meeting the new criteria.
+The_National_Chronicle_03,The National Chronicle,newspaper,S-FSP-V-O,5,481,The minister stated that funding would go only to projects meeting the new criteria.
+The_National_Chronicle_03,The National Chronicle,newspaper,S-V-FSP-O,0,481,The minister stated that funding would go only to projects meeting the new criteria.
+The_National_Chronicle_03,The National Chronicle,newspaper,S-V-O-FSP,1,481,The minister stated that funding would go only to projects meeting the new criteria.
+The_National_Chronicle_04,The National Chronicle,newspaper,FSP-S-V-O,8,810,Analysts noted that the index rose only marginally despite stronger than expected data.
+The_National_Chronicle_04,The National Chronicle,newspaper,S-FSP-V-O,3,810,Analysts noted that the index rose only marginally despite stronger than expected data.
+The_National_Chronicle_04,The National Chronicle,newspaper,S-V-FSP-O,14,810,Analysts noted that the index rose only marginally despite stronger than expected data.
+The_National_Chronicle_04,The National Chronicle,newspaper,S-V-O-FSP,3,810,Analysts noted that the index rose only marginally despite stronger than expected data.
+The_National_Chronicle_05,The National Chronicle,newspaper,FSP-S-V-O,7,832,The report concluded that only partial compliance had been achieved across departments.
+The_National_Chronicle_05,The National Chronicle,newspaper,S-FSP-V-O,10,832,The report concluded that only partial compliance had been achieved across departments.
+The_National_Chronicle_05,The National Chronicle,newspaper,S-V-FSP-O,6,832,The report concluded that only partial compliance had been achieved across departments.
+The_National_Chronicle_05,The National Chronicle,newspaper,S-V-O-FSP,1,832,The report concluded that only partial compliance had been achieved across departments.
+The_National_Chronicle_06,The National Chronicle,newspaper,FSP-S-V-O,2,821,Only three candidates advanced to the final stage of the selection process.
+The_National_Chronicle_06,The National Chronicle,newspaper,S-FSP-V-O,2,821,Only three candidates advanced to the final stage of the selection process.
+The_National_Chronicle_06,The National Chronicle,newspaper,S-V-FSP-O,3,821,Only three candidates advanced to the final stage of the selection process.
+The_National_Chronicle_06,The National Chronicle,newspaper,S-V-O-FSP,2,821,Only three candidates advanced to the final stage of the selection process.
+The_National_Chronicle_07,The National Chronicle,newspaper,FSP-S-V-O,10,970,The panel agreed that the policy applied only to federally regulated institutions.
+The_National_Chronicle_07,The National Chronicle,newspaper,S-FSP-V-O,3,970,The panel agreed that the policy applied only to federally regulated institutions.
+The_National_Chronicle_07,The National Chronicle,newspaper,S-V-FSP-O,16,970,The panel agreed that the policy applied only to federally regulated institutions.
+The_National_Chronicle_07,The National Chronicle,newspaper,S-V-O-FSP,1,970,The panel agreed that the policy applied only to federally regulated institutions.
+The_National_Chronicle_08,The National Chronicle,newspaper,FSP-S-V-O,4,1172,Officials confirmed that only the amended version of the bill would proceed to vote.
+The_National_Chronicle_08,The National Chronicle,newspaper,S-FSP-V-O,6,1172,Officials confirmed that only the amended version of the bill would proceed to vote.
+The_National_Chronicle_08,The National Chronicle,newspaper,S-V-FSP-O,4,1172,Officials confirmed that only the amended version of the bill would proceed to vote.
+The_National_Chronicle_08,The National Chronicle,newspaper,S-V-O-FSP,2,1172,Officials confirmed that only the amended version of the bill would proceed to vote.
+The_National_Chronicle_09,The National Chronicle,newspaper,FSP-S-V-O,4,576,The agency warned that only certified laboratories could conduct the required testing.
+The_National_Chronicle_09,The National Chronicle,newspaper,S-FSP-V-O,1,576,The agency warned that only certified laboratories could conduct the required testing.
+The_National_Chronicle_09,The National Chronicle,newspaper,S-V-FSP-O,1,576,The agency warned that only certified laboratories could conduct the required testing.
+The_National_Chronicle_09,The National Chronicle,newspaper,S-V-O-FSP,0,576,The agency warned that only certified laboratories could conduct the required testing.
+The_National_Chronicle_10,The National Chronicle,newspaper,FSP-S-V-O,12,865,Only the eastern districts reported significant disruption following the outage.
+The_National_Chronicle_10,The National Chronicle,newspaper,S-FSP-V-O,4,865,Only the eastern districts reported significant disruption following the outage.
+The_National_Chronicle_10,The National Chronicle,newspaper,S-V-FSP-O,15,865,Only the eastern districts reported significant disruption following the outage.
+The_National_Chronicle_10,The National Chronicle,newspaper,S-V-O-FSP,3,865,Only the eastern districts reported significant disruption following the outage.
+The_National_Chronicle_11,The National Chronicle,newspaper,FSP-S-V-O,12,1179,The court ruled that only documented expenses would be considered for reimbursement.
+The_National_Chronicle_11,The National Chronicle,newspaper,S-FSP-V-O,11,1179,The court ruled that only documented expenses would be considered for reimbursement.
+The_National_Chronicle_11,The National Chronicle,newspaper,S-V-FSP-O,2,1179,The court ruled that only documented expenses would be considered for reimbursement.
+The_National_Chronicle_11,The National Chronicle,newspaper,S-V-O-FSP,2,1179,The court ruled that only documented expenses would be considered for reimbursement.
+The_National_Chronicle_12,The National Chronicle,newspaper,FSP-S-V-O,8,922,Only a small fraction of the submitted applications met the eligibility requirements.
+The_National_Chronicle_12,The National Chronicle,newspaper,S-FSP-V-O,1,922,Only a small fraction of the submitted applications met the eligibility requirements.
+The_National_Chronicle_12,The National Chronicle,newspaper,S-V-FSP-O,8,922,Only a small fraction of the submitted applications met the eligibility requirements.
+The_National_Chronicle_12,The National Chronicle,newspaper,S-V-O-FSP,2,922,Only a small fraction of the submitted applications met the eligibility requirements.
+The_National_Chronicle_13,The National Chronicle,newspaper,FSP-S-V-O,7,806,The board resolved that dividends would be paid only to shareholders of record.
+The_National_Chronicle_13,The National Chronicle,newspaper,S-FSP-V-O,10,806,The board resolved that dividends would be paid only to shareholders of record.
+The_National_Chronicle_13,The National Chronicle,newspaper,S-V-FSP-O,9,806,The board resolved that dividends would be paid only to shareholders of record.
+The_National_Chronicle_13,The National Chronicle,newspaper,S-V-O-FSP,7,806,The board resolved that dividends would be paid only to shareholders of record.
+The_National_Chronicle_14,The National Chronicle,newspaper,FSP-S-V-O,2,742,Only the primary investigator was authorized to release findings to the press.
+The_National_Chronicle_14,The National Chronicle,newspaper,S-FSP-V-O,3,742,Only the primary investigator was authorized to release findings to the press.
+The_National_Chronicle_14,The National Chronicle,newspaper,S-V-FSP-O,1,742,Only the primary investigator was authorized to release findings to the press.
+The_National_Chronicle_14,The National Chronicle,newspaper,S-V-O-FSP,1,742,Only the primary investigator was authorized to release findings to the press.
+The_National_Chronicle_15,The National Chronicle,newspaper,FSP-S-V-O,12,519,The audit found that only two of the seven sites were in full regulatory compliance.
+The_National_Chronicle_15,The National Chronicle,newspaper,S-FSP-V-O,4,519,The audit found that only two of the seven sites were in full regulatory compliance.
+The_National_Chronicle_15,The National Chronicle,newspaper,S-V-FSP-O,1,519,The audit found that only two of the seven sites were in full regulatory compliance.
+The_National_Chronicle_15,The National Chronicle,newspaper,S-V-O-FSP,1,519,The audit found that only two of the seven sites were in full regulatory compliance.
+The_National_Chronicle_16,The National Chronicle,newspaper,FSP-S-V-O,17,949,Only the flagship publication retained its print edition after the restructuring.
+The_National_Chronicle_16,The National Chronicle,newspaper,S-FSP-V-O,5,949,Only the flagship publication retained its print edition after the restructuring.
+The_National_Chronicle_16,The National Chronicle,newspaper,S-V-FSP-O,2,949,Only the flagship publication retained its print edition after the restructuring.
+The_National_Chronicle_16,The National Chronicle,newspaper,S-V-O-FSP,1,949,Only the flagship publication retained its print edition after the restructuring.
+The_National_Chronicle_17,The National Chronicle,newspaper,FSP-S-V-O,5,197,The statement clarified that only domestic producers would qualify for the subsidy.
+The_National_Chronicle_17,The National Chronicle,newspaper,S-FSP-V-O,1,197,The statement clarified that only domestic producers would qualify for the subsidy.
+The_National_Chronicle_17,The National Chronicle,newspaper,S-V-FSP-O,2,197,The statement clarified that only domestic producers would qualify for the subsidy.
+The_National_Chronicle_17,The National Chronicle,newspaper,S-V-O-FSP,0,197,The statement clarified that only domestic producers would qualify for the subsidy.
+The_National_Chronicle_18,The National Chronicle,newspaper,FSP-S-V-O,18,713,Only the most severe cases were referred to the specialized treatment facility.
+The_National_Chronicle_18,The National Chronicle,newspaper,S-FSP-V-O,14,713,Only the most severe cases were referred to the specialized treatment facility.
+The_National_Chronicle_18,The National Chronicle,newspaper,S-V-FSP-O,6,713,Only the most severe cases were referred to the specialized treatment facility.
+The_National_Chronicle_18,The National Chronicle,newspaper,S-V-O-FSP,7,713,Only the most severe cases were referred to the specialized treatment facility.
+The_National_Chronicle_19,The National Chronicle,newspaper,FSP-S-V-O,7,744,The directive specified that changes would apply only to newly registered entities.
+The_National_Chronicle_19,The National Chronicle,newspaper,S-FSP-V-O,3,744,The directive specified that changes would apply only to newly registered entities.
+The_National_Chronicle_19,The National Chronicle,newspaper,S-V-FSP-O,1,744,The directive specified that changes would apply only to newly registered entities.
+The_National_Chronicle_19,The National Chronicle,newspaper,S-V-O-FSP,7,744,The directive specified that changes would apply only to newly registered entities.
+The_National_Chronicle_20,The National Chronicle,newspaper,FSP-S-V-O,11,758,Only the unanimous decision of the board could authorize the proposed acquisition.
+The_National_Chronicle_20,The National Chronicle,newspaper,S-FSP-V-O,10,758,Only the unanimous decision of the board could authorize the proposed acquisition.
+The_National_Chronicle_20,The National Chronicle,newspaper,S-V-FSP-O,7,758,Only the unanimous decision of the board could authorize the proposed acquisition.
+The_National_Chronicle_20,The National Chronicle,newspaper,S-V-O-FSP,10,758,Only the unanimous decision of the board could authorize the proposed acquisition.
+GrammarReels_01,GrammarReels,social_media_spoken,FSP-S-V-O,1,81,I only come here when I want something that actually tastes good
+GrammarReels_01,GrammarReels,social_media_spoken,S-FSP-V-O,0,81,I only come here when I want something that actually tastes good
+GrammarReels_01,GrammarReels,social_media_spoken,S-V-FSP-O,0,81,I only come here when I want something that actually tastes good
+GrammarReels_01,GrammarReels,social_media_spoken,S-V-O-FSP,0,81,I only come here when I want something that actually tastes good
+GrammarReels_02,GrammarReels,social_media_spoken,FSP-S-V-O,0,106,she only posts when Mercury is in retrograde I swear
+GrammarReels_02,GrammarReels,social_media_spoken,S-FSP-V-O,2,106,she only posts when Mercury is in retrograde I swear
+GrammarReels_02,GrammarReels,social_media_spoken,S-V-FSP-O,1,106,she only posts when Mercury is in retrograde I swear
+GrammarReels_02,GrammarReels,social_media_spoken,S-V-O-FSP,3,106,she only posts when Mercury is in retrograde I swear
+GrammarReels_03,GrammarReels,social_media_spoken,FSP-S-V-O,2,48,bro only shows up to things if there is free food involved
+GrammarReels_03,GrammarReels,social_media_spoken,S-FSP-V-O,0,48,bro only shows up to things if there is free food involved
+GrammarReels_03,GrammarReels,social_media_spoken,S-V-FSP-O,0,48,bro only shows up to things if there is free food involved
+GrammarReels_03,GrammarReels,social_media_spoken,S-V-O-FSP,0,48,bro only shows up to things if there is free food involved
+GrammarReels_04,GrammarReels,social_media_spoken,FSP-S-V-O,1,124,I only watched it once and now I think about it constantly
+GrammarReels_04,GrammarReels,social_media_spoken,S-FSP-V-O,0,124,I only watched it once and now I think about it constantly
+GrammarReels_04,GrammarReels,social_media_spoken,S-V-FSP-O,2,124,I only watched it once and now I think about it constantly
+GrammarReels_04,GrammarReels,social_media_spoken,S-V-O-FSP,0,124,I only watched it once and now I think about it constantly
+GrammarReels_05,GrammarReels,social_media_spoken,FSP-S-V-O,0,87,they only invited us because they needed someone to drive
+GrammarReels_05,GrammarReels,social_media_spoken,S-FSP-V-O,0,87,they only invited us because they needed someone to drive
+GrammarReels_05,GrammarReels,social_media_spoken,S-V-FSP-O,0,87,they only invited us because they needed someone to drive
+GrammarReels_05,GrammarReels,social_media_spoken,S-V-O-FSP,1,87,they only invited us because they needed someone to drive
+GrammarReels_06,GrammarReels,social_media_spoken,FSP-S-V-O,0,32,I only know like four chords but that is enough honestly
+GrammarReels_06,GrammarReels,social_media_spoken,S-FSP-V-O,1,32,I only know like four chords but that is enough honestly
+GrammarReels_06,GrammarReels,social_media_spoken,S-V-FSP-O,0,32,I only know like four chords but that is enough honestly
+GrammarReels_06,GrammarReels,social_media_spoken,S-V-O-FSP,0,32,I only know like four chords but that is enough honestly
+GrammarReels_07,GrammarReels,social_media_spoken,FSP-S-V-O,0,106,he only apologizes when he gets caught and that is not the same thing
+GrammarReels_07,GrammarReels,social_media_spoken,S-FSP-V-O,0,106,he only apologizes when he gets caught and that is not the same thing
+GrammarReels_07,GrammarReels,social_media_spoken,S-V-FSP-O,2,106,he only apologizes when he gets caught and that is not the same thing
+GrammarReels_07,GrammarReels,social_media_spoken,S-V-O-FSP,1,106,he only apologizes when he gets caught and that is not the same thing
+GrammarReels_08,GrammarReels,social_media_spoken,FSP-S-V-O,0,104,I only read the comments for the chaos at this point
+GrammarReels_08,GrammarReels,social_media_spoken,S-FSP-V-O,1,104,I only read the comments for the chaos at this point
+GrammarReels_08,GrammarReels,social_media_spoken,S-V-FSP-O,1,104,I only read the comments for the chaos at this point
+GrammarReels_08,GrammarReels,social_media_spoken,S-V-O-FSP,2,104,I only read the comments for the chaos at this point
+GrammarReels_09,GrammarReels,social_media_spoken,FSP-S-V-O,0,49,she only texts back when she needs something and we all see it
+GrammarReels_09,GrammarReels,social_media_spoken,S-FSP-V-O,0,49,she only texts back when she needs something and we all see it
+GrammarReels_09,GrammarReels,social_media_spoken,S-V-FSP-O,0,49,she only texts back when she needs something and we all see it
+GrammarReels_09,GrammarReels,social_media_spoken,S-V-O-FSP,2,49,she only texts back when she needs something and we all see it
+GrammarReels_10,GrammarReels,social_media_spoken,FSP-S-V-O,4,120,I only bought it because it was on sale and now I have seventeen
+GrammarReels_10,GrammarReels,social_media_spoken,S-FSP-V-O,0,120,I only bought it because it was on sale and now I have seventeen
+GrammarReels_10,GrammarReels,social_media_spoken,S-V-FSP-O,1,120,I only bought it because it was on sale and now I have seventeen
+GrammarReels_10,GrammarReels,social_media_spoken,S-V-O-FSP,1,120,I only bought it because it was on sale and now I have seventeen
+GrammarReels_11,GrammarReels,social_media_spoken,FSP-S-V-O,1,80,they only updated the app to add more ads not to fix the bugs
+GrammarReels_11,GrammarReels,social_media_spoken,S-FSP-V-O,1,80,they only updated the app to add more ads not to fix the bugs
+GrammarReels_11,GrammarReels,social_media_spoken,S-V-FSP-O,0,80,they only updated the app to add more ads not to fix the bugs
+GrammarReels_11,GrammarReels,social_media_spoken,S-V-O-FSP,0,80,they only updated the app to add more ads not to fix the bugs
+GrammarReels_12,GrammarReels,social_media_spoken,FSP-S-V-O,3,176,I only said yes because I did not know how to say no in that moment
+GrammarReels_12,GrammarReels,social_media_spoken,S-FSP-V-O,4,176,I only said yes because I did not know how to say no in that moment
+GrammarReels_12,GrammarReels,social_media_spoken,S-V-FSP-O,1,176,I only said yes because I did not know how to say no in that moment
+GrammarReels_12,GrammarReels,social_media_spoken,S-V-O-FSP,3,176,I only said yes because I did not know how to say no in that moment
+GrammarReels_13,GrammarReels,social_media_spoken,FSP-S-V-O,1,136,he only started caring about the environment after the documentary
+GrammarReels_13,GrammarReels,social_media_spoken,S-FSP-V-O,0,136,he only started caring about the environment after the documentary
+GrammarReels_13,GrammarReels,social_media_spoken,S-V-FSP-O,1,136,he only started caring about the environment after the documentary
+GrammarReels_13,GrammarReels,social_media_spoken,S-V-O-FSP,2,136,he only started caring about the environment after the documentary
+GrammarReels_14,GrammarReels,social_media_spoken,FSP-S-V-O,0,42,I only go to that coffee shop when I need to feel like a main character
+GrammarReels_14,GrammarReels,social_media_spoken,S-FSP-V-O,0,42,I only go to that coffee shop when I need to feel like a main character
+GrammarReels_14,GrammarReels,social_media_spoken,S-V-FSP-O,0,42,I only go to that coffee shop when I need to feel like a main character
+GrammarReels_14,GrammarReels,social_media_spoken,S-V-O-FSP,1,42,I only go to that coffee shop when I need to feel like a main character
+GrammarReels_15,GrammarReels,social_media_spoken,FSP-S-V-O,0,116,she only learned to cook during lockdown and now she will not stop
+GrammarReels_15,GrammarReels,social_media_spoken,S-FSP-V-O,1,116,she only learned to cook during lockdown and now she will not stop
+GrammarReels_15,GrammarReels,social_media_spoken,S-V-FSP-O,0,116,she only learned to cook during lockdown and now she will not stop
+GrammarReels_15,GrammarReels,social_media_spoken,S-V-O-FSP,7,116,she only learned to cook during lockdown and now she will not stop
+GrammarReels_16,GrammarReels,social_media_spoken,FSP-S-V-O,0,76,I only follow accounts that make me feel okay about doing nothing
+GrammarReels_16,GrammarReels,social_media_spoken,S-FSP-V-O,1,76,I only follow accounts that make me feel okay about doing nothing
+GrammarReels_16,GrammarReels,social_media_spoken,S-V-FSP-O,0,76,I only follow accounts that make me feel okay about doing nothing
+GrammarReels_16,GrammarReels,social_media_spoken,S-V-O-FSP,0,76,I only follow accounts that make me feel okay about doing nothing
+GrammarReels_17,GrammarReels,social_media_spoken,FSP-S-V-O,1,108,they only changed the policy after everyone complained for a year
+GrammarReels_17,GrammarReels,social_media_spoken,S-FSP-V-O,1,108,they only changed the policy after everyone complained for a year
+GrammarReels_17,GrammarReels,social_media_spoken,S-V-FSP-O,1,108,they only changed the policy after everyone complained for a year
+GrammarReels_17,GrammarReels,social_media_spoken,S-V-O-FSP,2,108,they only changed the policy after everyone complained for a year
+GrammarReels_18,GrammarReels,social_media_spoken,FSP-S-V-O,0,77,I only cry at commercials now that is where I am emotionally
+GrammarReels_18,GrammarReels,social_media_spoken,S-FSP-V-O,0,77,I only cry at commercials now that is where I am emotionally
+GrammarReels_18,GrammarReels,social_media_spoken,S-V-FSP-O,2,77,I only cry at commercials now that is where I am emotionally
+GrammarReels_18,GrammarReels,social_media_spoken,S-V-O-FSP,0,77,I only cry at commercials now that is where I am emotionally
+GrammarReels_19,GrammarReels,social_media_spoken,FSP-S-V-O,1,95,he only listens to podcasts about things he already agrees with
+GrammarReels_19,GrammarReels,social_media_spoken,S-FSP-V-O,0,95,he only listens to podcasts about things he already agrees with
+GrammarReels_19,GrammarReels,social_media_spoken,S-V-FSP-O,0,95,he only listens to podcasts about things he already agrees with
+GrammarReels_19,GrammarReels,social_media_spoken,S-V-O-FSP,0,95,he only listens to podcasts about things he already agrees with
+GrammarReels_20,GrammarReels,social_media_spoken,FSP-S-V-O,1,96,I only downloaded the app to see what the algorithm thinks I am
+GrammarReels_20,GrammarReels,social_media_spoken,S-FSP-V-O,3,96,I only downloaded the app to see what the algorithm thinks I am
+GrammarReels_20,GrammarReels,social_media_spoken,S-V-FSP-O,2,96,I only downloaded the app to see what the algorithm thinks I am
+GrammarReels_20,GrammarReels,social_media_spoken,S-V-O-FSP,0,96,I only downloaded the app to see what the algorithm thinks I am
+LinguistTok_01,LinguistTok,social_media_spoken,FSP-S-V-O,3,42,I only come here when I want something that actually tastes good
+LinguistTok_01,LinguistTok,social_media_spoken,S-FSP-V-O,1,42,I only come here when I want something that actually tastes good
+LinguistTok_01,LinguistTok,social_media_spoken,S-V-FSP-O,2,42,I only come here when I want something that actually tastes good
+LinguistTok_01,LinguistTok,social_media_spoken,S-V-O-FSP,1,42,I only come here when I want something that actually tastes good
+LinguistTok_02,LinguistTok,social_media_spoken,FSP-S-V-O,1,94,she only posts when Mercury is in retrograde I swear
+LinguistTok_02,LinguistTok,social_media_spoken,S-FSP-V-O,1,94,she only posts when Mercury is in retrograde I swear
+LinguistTok_02,LinguistTok,social_media_spoken,S-V-FSP-O,0,94,she only posts when Mercury is in retrograde I swear
+LinguistTok_02,LinguistTok,social_media_spoken,S-V-O-FSP,1,94,she only posts when Mercury is in retrograde I swear
+LinguistTok_03,LinguistTok,social_media_spoken,FSP-S-V-O,4,121,bro only shows up to things if there is free food involved
+LinguistTok_03,LinguistTok,social_media_spoken,S-FSP-V-O,5,121,bro only shows up to things if there is free food involved
+LinguistTok_03,LinguistTok,social_media_spoken,S-V-FSP-O,2,121,bro only shows up to things if there is free food involved
+LinguistTok_03,LinguistTok,social_media_spoken,S-V-O-FSP,2,121,bro only shows up to things if there is free food involved
+LinguistTok_04,LinguistTok,social_media_spoken,FSP-S-V-O,0,20,I only watched it once and now I think about it constantly
+LinguistTok_04,LinguistTok,social_media_spoken,S-FSP-V-O,0,20,I only watched it once and now I think about it constantly
+LinguistTok_04,LinguistTok,social_media_spoken,S-V-FSP-O,0,20,I only watched it once and now I think about it constantly
+LinguistTok_04,LinguistTok,social_media_spoken,S-V-O-FSP,0,20,I only watched it once and now I think about it constantly
+LinguistTok_05,LinguistTok,social_media_spoken,FSP-S-V-O,1,105,they only invited us because they needed someone to drive
+LinguistTok_05,LinguistTok,social_media_spoken,S-FSP-V-O,2,105,they only invited us because they needed someone to drive
+LinguistTok_05,LinguistTok,social_media_spoken,S-V-FSP-O,1,105,they only invited us because they needed someone to drive
+LinguistTok_05,LinguistTok,social_media_spoken,S-V-O-FSP,0,105,they only invited us because they needed someone to drive
+LinguistTok_06,LinguistTok,social_media_spoken,FSP-S-V-O,0,122,I only know like four chords but that is enough honestly
+LinguistTok_06,LinguistTok,social_media_spoken,S-FSP-V-O,2,122,I only know like four chords but that is enough honestly
+LinguistTok_06,LinguistTok,social_media_spoken,S-V-FSP-O,0,122,I only know like four chords but that is enough honestly
+LinguistTok_06,LinguistTok,social_media_spoken,S-V-O-FSP,4,122,I only know like four chords but that is enough honestly
+LinguistTok_07,LinguistTok,social_media_spoken,FSP-S-V-O,0,113,he only apologizes when he gets caught and that is not the same thing
+LinguistTok_07,LinguistTok,social_media_spoken,S-FSP-V-O,3,113,he only apologizes when he gets caught and that is not the same thing
+LinguistTok_07,LinguistTok,social_media_spoken,S-V-FSP-O,1,113,he only apologizes when he gets caught and that is not the same thing
+LinguistTok_07,LinguistTok,social_media_spoken,S-V-O-FSP,1,113,he only apologizes when he gets caught and that is not the same thing
+LinguistTok_08,LinguistTok,social_media_spoken,FSP-S-V-O,0,87,I only read the comments for the chaos at this point
+LinguistTok_08,LinguistTok,social_media_spoken,S-FSP-V-O,0,87,I only read the comments for the chaos at this point
+LinguistTok_08,LinguistTok,social_media_spoken,S-V-FSP-O,1,87,I only read the comments for the chaos at this point
+LinguistTok_08,LinguistTok,social_media_spoken,S-V-O-FSP,1,87,I only read the comments for the chaos at this point
+LinguistTok_09,LinguistTok,social_media_spoken,FSP-S-V-O,0,94,she only texts back when she needs something and we all see it
+LinguistTok_09,LinguistTok,social_media_spoken,S-FSP-V-O,2,94,she only texts back when she needs something and we all see it
+LinguistTok_09,LinguistTok,social_media_spoken,S-V-FSP-O,0,94,she only texts back when she needs something and we all see it
+LinguistTok_09,LinguistTok,social_media_spoken,S-V-O-FSP,2,94,she only texts back when she needs something and we all see it
+LinguistTok_10,LinguistTok,social_media_spoken,FSP-S-V-O,0,120,I only bought it because it was on sale and now I have seventeen
+LinguistTok_10,LinguistTok,social_media_spoken,S-FSP-V-O,2,120,I only bought it because it was on sale and now I have seventeen
+LinguistTok_10,LinguistTok,social_media_spoken,S-V-FSP-O,0,120,I only bought it because it was on sale and now I have seventeen
+LinguistTok_10,LinguistTok,social_media_spoken,S-V-O-FSP,0,120,I only bought it because it was on sale and now I have seventeen
+LinguistTok_11,LinguistTok,social_media_spoken,FSP-S-V-O,0,143,they only updated the app to add more ads not to fix the bugs
+LinguistTok_11,LinguistTok,social_media_spoken,S-FSP-V-O,0,143,they only updated the app to add more ads not to fix the bugs
+LinguistTok_11,LinguistTok,social_media_spoken,S-V-FSP-O,0,143,they only updated the app to add more ads not to fix the bugs
+LinguistTok_11,LinguistTok,social_media_spoken,S-V-O-FSP,1,143,they only updated the app to add more ads not to fix the bugs
+LinguistTok_12,LinguistTok,social_media_spoken,FSP-S-V-O,0,154,I only said yes because I did not know how to say no in that moment
+LinguistTok_12,LinguistTok,social_media_spoken,S-FSP-V-O,1,154,I only said yes because I did not know how to say no in that moment
+LinguistTok_12,LinguistTok,social_media_spoken,S-V-FSP-O,0,154,I only said yes because I did not know how to say no in that moment
+LinguistTok_12,LinguistTok,social_media_spoken,S-V-O-FSP,2,154,I only said yes because I did not know how to say no in that moment
+LinguistTok_13,LinguistTok,social_media_spoken,FSP-S-V-O,3,91,he only started caring about the environment after the documentary
+LinguistTok_13,LinguistTok,social_media_spoken,S-FSP-V-O,0,91,he only started caring about the environment after the documentary
+LinguistTok_13,LinguistTok,social_media_spoken,S-V-FSP-O,2,91,he only started caring about the environment after the documentary
+LinguistTok_13,LinguistTok,social_media_spoken,S-V-O-FSP,8,91,he only started caring about the environment after the documentary
+LinguistTok_14,LinguistTok,social_media_spoken,FSP-S-V-O,0,171,I only go to that coffee shop when I need to feel like a main character
+LinguistTok_14,LinguistTok,social_media_spoken,S-FSP-V-O,3,171,I only go to that coffee shop when I need to feel like a main character
+LinguistTok_14,LinguistTok,social_media_spoken,S-V-FSP-O,4,171,I only go to that coffee shop when I need to feel like a main character
+LinguistTok_14,LinguistTok,social_media_spoken,S-V-O-FSP,1,171,I only go to that coffee shop when I need to feel like a main character
+LinguistTok_15,LinguistTok,social_media_spoken,FSP-S-V-O,1,92,she only learned to cook during lockdown and now she will not stop
+LinguistTok_15,LinguistTok,social_media_spoken,S-FSP-V-O,1,92,she only learned to cook during lockdown and now she will not stop
+LinguistTok_15,LinguistTok,social_media_spoken,S-V-FSP-O,1,92,she only learned to cook during lockdown and now she will not stop
+LinguistTok_15,LinguistTok,social_media_spoken,S-V-O-FSP,0,92,she only learned to cook during lockdown and now she will not stop
+LinguistTok_16,LinguistTok,social_media_spoken,FSP-S-V-O,3,129,I only follow accounts that make me feel okay about doing nothing
+LinguistTok_16,LinguistTok,social_media_spoken,S-FSP-V-O,2,129,I only follow accounts that make me feel okay about doing nothing
+LinguistTok_16,LinguistTok,social_media_spoken,S-V-FSP-O,3,129,I only follow accounts that make me feel okay about doing nothing
+LinguistTok_16,LinguistTok,social_media_spoken,S-V-O-FSP,1,129,I only follow accounts that make me feel okay about doing nothing
+LinguistTok_17,LinguistTok,social_media_spoken,FSP-S-V-O,0,59,they only changed the policy after everyone complained for a year
+LinguistTok_17,LinguistTok,social_media_spoken,S-FSP-V-O,1,59,they only changed the policy after everyone complained for a year
+LinguistTok_17,LinguistTok,social_media_spoken,S-V-FSP-O,1,59,they only changed the policy after everyone complained for a year
+LinguistTok_17,LinguistTok,social_media_spoken,S-V-O-FSP,1,59,they only changed the policy after everyone complained for a year
+LinguistTok_18,LinguistTok,social_media_spoken,FSP-S-V-O,1,88,I only cry at commercials now that is where I am emotionally
+LinguistTok_18,LinguistTok,social_media_spoken,S-FSP-V-O,0,88,I only cry at commercials now that is where I am emotionally
+LinguistTok_18,LinguistTok,social_media_spoken,S-V-FSP-O,0,88,I only cry at commercials now that is where I am emotionally
+LinguistTok_18,LinguistTok,social_media_spoken,S-V-O-FSP,2,88,I only cry at commercials now that is where I am emotionally
+LinguistTok_19,LinguistTok,social_media_spoken,FSP-S-V-O,2,98,he only listens to podcasts about things he already agrees with
+LinguistTok_19,LinguistTok,social_media_spoken,S-FSP-V-O,3,98,he only listens to podcasts about things he already agrees with
+LinguistTok_19,LinguistTok,social_media_spoken,S-V-FSP-O,3,98,he only listens to podcasts about things he already agrees with
+LinguistTok_19,LinguistTok,social_media_spoken,S-V-O-FSP,0,98,he only listens to podcasts about things he already agrees with
+LinguistTok_20,LinguistTok,social_media_spoken,FSP-S-V-O,1,101,I only downloaded the app to see what the algorithm thinks I am
+LinguistTok_20,LinguistTok,social_media_spoken,S-FSP-V-O,4,101,I only downloaded the app to see what the algorithm thinks I am
+LinguistTok_20,LinguistTok,social_media_spoken,S-V-FSP-O,1,101,I only downloaded the app to see what the algorithm thinks I am
+LinguistTok_20,LinguistTok,social_media_spoken,S-V-O-FSP,6,101,I only downloaded the app to see what the algorithm thinks I am
+BlueSky_Academic_01,BlueSky Academic,social_media_written,FSP-S-V-O,0,27,only here for the linguistics memes tbh
+BlueSky_Academic_01,BlueSky Academic,social_media_written,S-FSP-V-O,0,27,only here for the linguistics memes tbh
+BlueSky_Academic_01,BlueSky Academic,social_media_written,S-V-FSP-O,0,27,only here for the linguistics memes tbh
+BlueSky_Academic_01,BlueSky Academic,social_media_written,S-V-O-FSP,2,27,only here for the linguistics memes tbh
+BlueSky_Academic_02,BlueSky Academic,social_media_written,FSP-S-V-O,0,40,wait so only the first author gets credit?? that's wild
+BlueSky_Academic_02,BlueSky Academic,social_media_written,S-FSP-V-O,0,40,wait so only the first author gets credit?? that's wild
+BlueSky_Academic_02,BlueSky Academic,social_media_written,S-V-FSP-O,0,40,wait so only the first author gets credit?? that's wild
+BlueSky_Academic_02,BlueSky Academic,social_media_written,S-V-O-FSP,1,40,wait so only the first author gets credit?? that's wild
+BlueSky_Academic_03,BlueSky Academic,social_media_written,FSP-S-V-O,0,72,i only read abstracts and conclusions and i will not apologize
+BlueSky_Academic_03,BlueSky Academic,social_media_written,S-FSP-V-O,1,72,i only read abstracts and conclusions and i will not apologize
+BlueSky_Academic_03,BlueSky Academic,social_media_written,S-V-FSP-O,1,72,i only read abstracts and conclusions and i will not apologize
+BlueSky_Academic_03,BlueSky Academic,social_media_written,S-V-O-FSP,1,72,i only read abstracts and conclusions and i will not apologize
+BlueSky_Academic_04,BlueSky Academic,social_media_written,FSP-S-V-O,0,20,she only cited herself in the bibliography and honestly respect
+BlueSky_Academic_04,BlueSky Academic,social_media_written,S-FSP-V-O,0,20,she only cited herself in the bibliography and honestly respect
+BlueSky_Academic_04,BlueSky Academic,social_media_written,S-V-FSP-O,0,20,she only cited herself in the bibliography and honestly respect
+BlueSky_Academic_04,BlueSky Academic,social_media_written,S-V-O-FSP,0,20,she only cited herself in the bibliography and honestly respect
+BlueSky_Academic_05,BlueSky Academic,social_media_written,FSP-S-V-O,0,24,only taking this course because it fits my schedule lol
+BlueSky_Academic_05,BlueSky Academic,social_media_written,S-FSP-V-O,0,24,only taking this course because it fits my schedule lol
+BlueSky_Academic_05,BlueSky Academic,social_media_written,S-V-FSP-O,2,24,only taking this course because it fits my schedule lol
+BlueSky_Academic_05,BlueSky Academic,social_media_written,S-V-O-FSP,0,24,only taking this course because it fits my schedule lol
+BlueSky_Academic_06,BlueSky Academic,social_media_written,FSP-S-V-O,0,79,bro only showed up for the final and somehow passed
+BlueSky_Academic_06,BlueSky Academic,social_media_written,S-FSP-V-O,2,79,bro only showed up for the final and somehow passed
+BlueSky_Academic_06,BlueSky Academic,social_media_written,S-V-FSP-O,0,79,bro only showed up for the final and somehow passed
+BlueSky_Academic_06,BlueSky Academic,social_media_written,S-V-O-FSP,1,79,bro only showed up for the final and somehow passed
+BlueSky_Academic_07,BlueSky Academic,social_media_written,FSP-S-V-O,0,31,only in academia would this count as a research question
+BlueSky_Academic_07,BlueSky Academic,social_media_written,S-FSP-V-O,0,31,only in academia would this count as a research question
+BlueSky_Academic_07,BlueSky Academic,social_media_written,S-V-FSP-O,0,31,only in academia would this count as a research question
+BlueSky_Academic_07,BlueSky Academic,social_media_written,S-V-O-FSP,0,31,only in academia would this count as a research question
+BlueSky_Academic_08,BlueSky Academic,social_media_written,FSP-S-V-O,0,20,they only updated the syllabus the night before class starts
+BlueSky_Academic_08,BlueSky Academic,social_media_written,S-FSP-V-O,0,20,they only updated the syllabus the night before class starts
+BlueSky_Academic_08,BlueSky Academic,social_media_written,S-V-FSP-O,0,20,they only updated the syllabus the night before class starts
+BlueSky_Academic_08,BlueSky Academic,social_media_written,S-V-O-FSP,0,20,they only updated the syllabus the night before class starts
+BlueSky_Academic_09,BlueSky Academic,social_media_written,FSP-S-V-O,1,83,only my advisor thinks this is a reasonable timeline
+BlueSky_Academic_09,BlueSky Academic,social_media_written,S-FSP-V-O,0,83,only my advisor thinks this is a reasonable timeline
+BlueSky_Academic_09,BlueSky Academic,social_media_written,S-V-FSP-O,3,83,only my advisor thinks this is a reasonable timeline
+BlueSky_Academic_09,BlueSky Academic,social_media_written,S-V-O-FSP,0,83,only my advisor thinks this is a reasonable timeline
+BlueSky_Academic_10,BlueSky Academic,social_media_written,FSP-S-V-O,1,89,i only have three citations and one of them is wikipedia
+BlueSky_Academic_10,BlueSky Academic,social_media_written,S-FSP-V-O,5,89,i only have three citations and one of them is wikipedia
+BlueSky_Academic_10,BlueSky Academic,social_media_written,S-V-FSP-O,0,89,i only have three citations and one of them is wikipedia
+BlueSky_Academic_10,BlueSky Academic,social_media_written,S-V-O-FSP,2,89,i only have three citations and one of them is wikipedia
+BlueSky_Academic_11,BlueSky Academic,social_media_written,FSP-S-V-O,0,33,the department only funds conferences if you present first author
+BlueSky_Academic_11,BlueSky Academic,social_media_written,S-FSP-V-O,0,33,the department only funds conferences if you present first author
+BlueSky_Academic_11,BlueSky Academic,social_media_written,S-V-FSP-O,1,33,the department only funds conferences if you present first author
+BlueSky_Academic_11,BlueSky Academic,social_media_written,S-V-O-FSP,0,33,the department only funds conferences if you present first author
+BlueSky_Academic_12,BlueSky Academic,social_media_written,FSP-S-V-O,0,40,only realized halfway through that i misread the prompt completely
+BlueSky_Academic_12,BlueSky Academic,social_media_written,S-FSP-V-O,0,40,only realized halfway through that i misread the prompt completely
+BlueSky_Academic_12,BlueSky Academic,social_media_written,S-V-FSP-O,0,40,only realized halfway through that i misread the prompt completely
+BlueSky_Academic_12,BlueSky Academic,social_media_written,S-V-O-FSP,0,40,only realized halfway through that i misread the prompt completely
+BlueSky_Academic_13,BlueSky Academic,social_media_written,FSP-S-V-O,0,20,she only replied to emails sent between 2 and 4am apparently
+BlueSky_Academic_13,BlueSky Academic,social_media_written,S-FSP-V-O,0,20,she only replied to emails sent between 2 and 4am apparently
+BlueSky_Academic_13,BlueSky Academic,social_media_written,S-V-FSP-O,0,20,she only replied to emails sent between 2 and 4am apparently
+BlueSky_Academic_13,BlueSky Academic,social_media_written,S-V-O-FSP,0,20,she only replied to emails sent between 2 and 4am apparently
+BlueSky_Academic_14,BlueSky Academic,social_media_written,FSP-S-V-O,0,27,only doing this degree for the library access honestly
+BlueSky_Academic_14,BlueSky Academic,social_media_written,S-FSP-V-O,0,27,only doing this degree for the library access honestly
+BlueSky_Academic_14,BlueSky Academic,social_media_written,S-V-FSP-O,0,27,only doing this degree for the library access honestly
+BlueSky_Academic_14,BlueSky Academic,social_media_written,S-V-O-FSP,1,27,only doing this degree for the library access honestly
+BlueSky_Academic_15,BlueSky Academic,social_media_written,FSP-S-V-O,0,80,peer review only works if the peers actually review it
+BlueSky_Academic_15,BlueSky Academic,social_media_written,S-FSP-V-O,6,80,peer review only works if the peers actually review it
+BlueSky_Academic_15,BlueSky Academic,social_media_written,S-V-FSP-O,1,80,peer review only works if the peers actually review it
+BlueSky_Academic_15,BlueSky Academic,social_media_written,S-V-O-FSP,0,80,peer review only works if the peers actually review it
+BlueSky_Academic_16,BlueSky Academic,social_media_written,FSP-S-V-O,0,41,i only understood like 40% of that talk and felt fine about it
+BlueSky_Academic_16,BlueSky Academic,social_media_written,S-FSP-V-O,0,41,i only understood like 40% of that talk and felt fine about it
+BlueSky_Academic_16,BlueSky Academic,social_media_written,S-V-FSP-O,0,41,i only understood like 40% of that talk and felt fine about it
+BlueSky_Academic_16,BlueSky Academic,social_media_written,S-V-O-FSP,0,41,i only understood like 40% of that talk and felt fine about it
+BlueSky_Academic_17,BlueSky Academic,social_media_written,FSP-S-V-O,0,20,they only offered the grad seminar once every two years
+BlueSky_Academic_17,BlueSky Academic,social_media_written,S-FSP-V-O,0,20,they only offered the grad seminar once every two years
+BlueSky_Academic_17,BlueSky Academic,social_media_written,S-V-FSP-O,0,20,they only offered the grad seminar once every two years
+BlueSky_Academic_17,BlueSky Academic,social_media_written,S-V-O-FSP,0,20,they only offered the grad seminar once every two years
+BlueSky_Academic_18,BlueSky Academic,social_media_written,FSP-S-V-O,0,22,only the people who finished their dissertations look happy
+BlueSky_Academic_18,BlueSky Academic,social_media_written,S-FSP-V-O,0,22,only the people who finished their dissertations look happy
+BlueSky_Academic_18,BlueSky Academic,social_media_written,S-V-FSP-O,0,22,only the people who finished their dissertations look happy
+BlueSky_Academic_18,BlueSky Academic,social_media_written,S-V-O-FSP,0,22,only the people who finished their dissertations look happy
+BlueSky_Academic_19,BlueSky Academic,social_media_written,FSP-S-V-O,0,47,i only picked this topic because the data already existed
+BlueSky_Academic_19,BlueSky Academic,social_media_written,S-FSP-V-O,0,47,i only picked this topic because the data already existed
+BlueSky_Academic_19,BlueSky Academic,social_media_written,S-V-FSP-O,0,47,i only picked this topic because the data already existed
+BlueSky_Academic_19,BlueSky Academic,social_media_written,S-V-O-FSP,0,47,i only picked this topic because the data already existed
+BlueSky_Academic_20,BlueSky Academic,social_media_written,FSP-S-V-O,0,50,he only ever quotes himself and somehow gets away with it
+BlueSky_Academic_20,BlueSky Academic,social_media_written,S-FSP-V-O,0,50,he only ever quotes himself and somehow gets away with it
+BlueSky_Academic_20,BlueSky Academic,social_media_written,S-V-FSP-O,1,50,he only ever quotes himself and somehow gets away with it
+BlueSky_Academic_20,BlueSky Academic,social_media_written,S-V-O-FSP,0,50,he only ever quotes himself and somehow gets away with it
+RedditLing_01,RedditLing,social_media_written,FSP-S-V-O,0,28,only here for the linguistics memes tbh
+RedditLing_01,RedditLing,social_media_written,S-FSP-V-O,0,28,only here for the linguistics memes tbh
+RedditLing_01,RedditLing,social_media_written,S-V-FSP-O,1,28,only here for the linguistics memes tbh
+RedditLing_01,RedditLing,social_media_written,S-V-O-FSP,1,28,only here for the linguistics memes tbh
+RedditLing_02,RedditLing,social_media_written,FSP-S-V-O,0,61,wait so only the first author gets credit?? that's wild
+RedditLing_02,RedditLing,social_media_written,S-FSP-V-O,0,61,wait so only the first author gets credit?? that's wild
+RedditLing_02,RedditLing,social_media_written,S-V-FSP-O,0,61,wait so only the first author gets credit?? that's wild
+RedditLing_02,RedditLing,social_media_written,S-V-O-FSP,1,61,wait so only the first author gets credit?? that's wild
+RedditLing_03,RedditLing,social_media_written,FSP-S-V-O,0,23,i only read abstracts and conclusions and i will not apologize
+RedditLing_03,RedditLing,social_media_written,S-FSP-V-O,0,23,i only read abstracts and conclusions and i will not apologize
+RedditLing_03,RedditLing,social_media_written,S-V-FSP-O,0,23,i only read abstracts and conclusions and i will not apologize
+RedditLing_03,RedditLing,social_media_written,S-V-O-FSP,0,23,i only read abstracts and conclusions and i will not apologize
+RedditLing_04,RedditLing,social_media_written,FSP-S-V-O,1,20,she only cited herself in the bibliography and honestly respect
+RedditLing_04,RedditLing,social_media_written,S-FSP-V-O,0,20,she only cited herself in the bibliography and honestly respect
+RedditLing_04,RedditLing,social_media_written,S-V-FSP-O,1,20,she only cited herself in the bibliography and honestly respect
+RedditLing_04,RedditLing,social_media_written,S-V-O-FSP,0,20,she only cited herself in the bibliography and honestly respect
+RedditLing_05,RedditLing,social_media_written,FSP-S-V-O,2,59,only taking this course because it fits my schedule lol
+RedditLing_05,RedditLing,social_media_written,S-FSP-V-O,0,59,only taking this course because it fits my schedule lol
+RedditLing_05,RedditLing,social_media_written,S-V-FSP-O,0,59,only taking this course because it fits my schedule lol
+RedditLing_05,RedditLing,social_media_written,S-V-O-FSP,1,59,only taking this course because it fits my schedule lol
+RedditLing_06,RedditLing,social_media_written,FSP-S-V-O,0,63,bro only showed up for the final and somehow passed
+RedditLing_06,RedditLing,social_media_written,S-FSP-V-O,1,63,bro only showed up for the final and somehow passed
+RedditLing_06,RedditLing,social_media_written,S-V-FSP-O,0,63,bro only showed up for the final and somehow passed
+RedditLing_06,RedditLing,social_media_written,S-V-O-FSP,4,63,bro only showed up for the final and somehow passed
+RedditLing_07,RedditLing,social_media_written,FSP-S-V-O,0,114,only in academia would this count as a research question
+RedditLing_07,RedditLing,social_media_written,S-FSP-V-O,1,114,only in academia would this count as a research question
+RedditLing_07,RedditLing,social_media_written,S-V-FSP-O,1,114,only in academia would this count as a research question
+RedditLing_07,RedditLing,social_media_written,S-V-O-FSP,1,114,only in academia would this count as a research question
+RedditLing_08,RedditLing,social_media_written,FSP-S-V-O,0,20,they only updated the syllabus the night before class starts
+RedditLing_08,RedditLing,social_media_written,S-FSP-V-O,0,20,they only updated the syllabus the night before class starts
+RedditLing_08,RedditLing,social_media_written,S-V-FSP-O,0,20,they only updated the syllabus the night before class starts
+RedditLing_08,RedditLing,social_media_written,S-V-O-FSP,0,20,they only updated the syllabus the night before class starts
+RedditLing_09,RedditLing,social_media_written,FSP-S-V-O,0,30,only my advisor thinks this is a reasonable timeline
+RedditLing_09,RedditLing,social_media_written,S-FSP-V-O,1,30,only my advisor thinks this is a reasonable timeline
+RedditLing_09,RedditLing,social_media_written,S-V-FSP-O,0,30,only my advisor thinks this is a reasonable timeline
+RedditLing_09,RedditLing,social_media_written,S-V-O-FSP,1,30,only my advisor thinks this is a reasonable timeline
+RedditLing_10,RedditLing,social_media_written,FSP-S-V-O,0,26,i only have three citations and one of them is wikipedia
+RedditLing_10,RedditLing,social_media_written,S-FSP-V-O,0,26,i only have three citations and one of them is wikipedia
+RedditLing_10,RedditLing,social_media_written,S-V-FSP-O,0,26,i only have three citations and one of them is wikipedia
+RedditLing_10,RedditLing,social_media_written,S-V-O-FSP,0,26,i only have three citations and one of them is wikipedia
+RedditLing_11,RedditLing,social_media_written,FSP-S-V-O,0,78,the department only funds conferences if you present first author
+RedditLing_11,RedditLing,social_media_written,S-FSP-V-O,0,78,the department only funds conferences if you present first author
+RedditLing_11,RedditLing,social_media_written,S-V-FSP-O,1,78,the department only funds conferences if you present first author
+RedditLing_11,RedditLing,social_media_written,S-V-O-FSP,0,78,the department only funds conferences if you present first author
+RedditLing_12,RedditLing,social_media_written,FSP-S-V-O,0,20,only realized halfway through that i misread the prompt completely
+RedditLing_12,RedditLing,social_media_written,S-FSP-V-O,0,20,only realized halfway through that i misread the prompt completely
+RedditLing_12,RedditLing,social_media_written,S-V-FSP-O,0,20,only realized halfway through that i misread the prompt completely
+RedditLing_12,RedditLing,social_media_written,S-V-O-FSP,0,20,only realized halfway through that i misread the prompt completely
+RedditLing_13,RedditLing,social_media_written,FSP-S-V-O,0,52,she only replied to emails sent between 2 and 4am apparently
+RedditLing_13,RedditLing,social_media_written,S-FSP-V-O,3,52,she only replied to emails sent between 2 and 4am apparently
+RedditLing_13,RedditLing,social_media_written,S-V-FSP-O,0,52,she only replied to emails sent between 2 and 4am apparently
+RedditLing_13,RedditLing,social_media_written,S-V-O-FSP,1,52,she only replied to emails sent between 2 and 4am apparently
+RedditLing_14,RedditLing,social_media_written,FSP-S-V-O,0,87,only doing this degree for the library access honestly
+RedditLing_14,RedditLing,social_media_written,S-FSP-V-O,0,87,only doing this degree for the library access honestly
+RedditLing_14,RedditLing,social_media_written,S-V-FSP-O,0,87,only doing this degree for the library access honestly
+RedditLing_14,RedditLing,social_media_written,S-V-O-FSP,0,87,only doing this degree for the library access honestly
+RedditLing_15,RedditLing,social_media_written,FSP-S-V-O,0,20,peer review only works if the peers actually review it
+RedditLing_15,RedditLing,social_media_written,S-FSP-V-O,0,20,peer review only works if the peers actually review it
+RedditLing_15,RedditLing,social_media_written,S-V-FSP-O,0,20,peer review only works if the peers actually review it
+RedditLing_15,RedditLing,social_media_written,S-V-O-FSP,1,20,peer review only works if the peers actually review it
+RedditLing_16,RedditLing,social_media_written,FSP-S-V-O,0,20,i only understood like 40% of that talk and felt fine about it
+RedditLing_16,RedditLing,social_media_written,S-FSP-V-O,1,20,i only understood like 40% of that talk and felt fine about it
+RedditLing_16,RedditLing,social_media_written,S-V-FSP-O,0,20,i only understood like 40% of that talk and felt fine about it
+RedditLing_16,RedditLing,social_media_written,S-V-O-FSP,0,20,i only understood like 40% of that talk and felt fine about it
+RedditLing_17,RedditLing,social_media_written,FSP-S-V-O,0,34,they only offered the grad seminar once every two years
+RedditLing_17,RedditLing,social_media_written,S-FSP-V-O,2,34,they only offered the grad seminar once every two years
+RedditLing_17,RedditLing,social_media_written,S-V-FSP-O,0,34,they only offered the grad seminar once every two years
+RedditLing_17,RedditLing,social_media_written,S-V-O-FSP,2,34,they only offered the grad seminar once every two years
+RedditLing_18,RedditLing,social_media_written,FSP-S-V-O,0,20,only the people who finished their dissertations look happy
+RedditLing_18,RedditLing,social_media_written,S-FSP-V-O,0,20,only the people who finished their dissertations look happy
+RedditLing_18,RedditLing,social_media_written,S-V-FSP-O,0,20,only the people who finished their dissertations look happy
+RedditLing_18,RedditLing,social_media_written,S-V-O-FSP,0,20,only the people who finished their dissertations look happy
+RedditLing_19,RedditLing,social_media_written,FSP-S-V-O,1,79,i only picked this topic because the data already existed
+RedditLing_19,RedditLing,social_media_written,S-FSP-V-O,0,79,i only picked this topic because the data already existed
+RedditLing_19,RedditLing,social_media_written,S-V-FSP-O,1,79,i only picked this topic because the data already existed
+RedditLing_19,RedditLing,social_media_written,S-V-O-FSP,0,79,i only picked this topic because the data already existed
+RedditLing_20,RedditLing,social_media_written,FSP-S-V-O,1,66,he only ever quotes himself and somehow gets away with it
+RedditLing_20,RedditLing,social_media_written,S-FSP-V-O,1,66,he only ever quotes himself and somehow gets away with it
+RedditLing_20,RedditLing,social_media_written,S-V-FSP-O,1,66,he only ever quotes himself and somehow gets away with it
+RedditLing_20,RedditLing,social_media_written,S-V-O-FSP,1,66,he only ever quotes himself and somehow gets away with it
