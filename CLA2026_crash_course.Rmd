@@ -1,0 +1,759 @@
+---
+title: "Statistical Methods for Linguistic Data"
+subtitle: "CLA 2026 Crash Course Practical Component"
+author: "Lindsay Hracs"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    number_sections: false
+    highlight: kate
+    code_folding: show
+---
+
+```{css, echo=FALSE}
+/* Nord-inspired styling */
+body { font-family: 'Segoe UI', Calibri, sans-serif; color: #2E3440; }
+h1, h2, h3 { color: #2E3440; }
+h2 { border-bottom: 3px solid #88C0D0; padding-bottom: 6px; }
+h3 { color: #4C566A; }
+.banner {
+  background-color: #3B4252;
+  border-left: 6px solid #88C0D0;
+  padding: 16px 20px;
+  border-radius: 6px;
+  color: #ECEFF4;
+  margin-bottom: 20px;
+}
+.note {
+  background-color: #E5E9F0;
+  border-left: 4px solid #88C0D0;
+  padding: 12px 16px;
+  border-radius: 4px;
+  margin: 12px 0;
+}
+```
+
+<div class="banner">
+
+### Local backup version
+
+This RMarkdown file is a local backup of the Colab notebook for use without internet access.
+All datasets are loaded from local CSV files; see **Section 0** for setup instructions.
+
+</div>
+
+---
+
+## About this document
+
+This notebook accompanies the workshop lecture. We will work through five analyses using
+synthetic data from a synthetic study on the focus sensitive particle (FSP) *only* in English.
+
+---
+
+### Synthetic study 1: Experimental study
+
+**Research question:** What effects do we observe in the different structural positions of the
+focus sensitive particle *only*?
+
+**Participants:** 83 adult native English speakers recruited from a university population.
+
+**Design:** 2 x 4 factorial
+
+- **Context** (2 levels): *match* (sentence is TRUE given context) vs. *mismatch* (sentence is FALSE given context)
+- **FSP position** (4 levels): the position of *only* in the sentence
+  - `FSP-S-V-O`: *Only Dale drinks coffee.*
+  - `S-FSP-V-O`: *Dale only drinks coffee.*
+  - `S-V-FSP-O`: *Dale drinks only coffee.*
+  - `S-V-O-FSP`: *Dale drinks coffee only.*
+
+| Task | Measure | Outcome variable | Type |
+|------|---------|-----------------|------|
+| Sentence production | Peak F0 on focused constituent (Hz) | `peak_f0` | Continuous |
+| Acceptability judgment | 1-7 Likert rating | `rating` | Ordinal |
+| Truth Value Judgment Task (TVJT) | Accuracy (correct/incorrect) | `correct` | Binary |
+| TVJT | Response time (ms) | `rt_ms` | Continuous |
+
+### Synthetic study 2: Corpus study
+
+**Research question:** Does the frequency of FSP position types vary across registers?
+
+| Corpus type | Register | Example corpora |
+|-------------|----------|-----------------|
+| Newspaper | Written formal | The National Chronicle, The Daily Register |
+| Social media written | Written informal | RedditLing, BlueSky Academic |
+| Legal proceedings | Spoken formal | Federal Court Transcripts, Provincial Court Transcripts |
+| Social media spoken | Spoken informal | LinguistTok, GrammarReels |
+
+**Outcome variable:** `count` (non-negative integer); overdispersed, requiring negative binomial regression.
+
+---
+
+## 0. Setup
+
+### Install and load packages
+
+```{r setup, message=FALSE, warning=FALSE}
+if (!require("pacman")) install.packages("pacman")
+
+pacman::p_load(
+  lme4,      # linear and generalized linear mixed effects models
+  lmerTest,  # p-values and degrees of freedom for lmer()
+  ggplot2,   # plotting
+  dplyr,     # data wrangling
+  MASS,      # negative binomial
+  ordinal,   # cumulative link models (ordinal regression)
+  patchwork, # combining multiple plots
+  viridis    # visually-impaired-friendly colour palette
+)
+
+cat("All packages successfully loaded!\n")
+```
+
+### Load local data files
+
+<div class="note">
+**Local use:** Download the five CSV files from the workshop GitHub repository and place them
+in the same folder as this RMD file before knitting, or update the file paths below.
+
+GitHub: https://github.com/lhracs/CLA2026_crash_course
+</div>
+
+```{r load-data, message=FALSE}
+participants  <- read.csv("participants_synth.csv",  stringsAsFactors = FALSE)
+production    <- read.csv("production_synth.csv",    stringsAsFactors = FALSE)
+acceptability <- read.csv("acceptability_synth.csv", stringsAsFactors = FALSE)
+tvjt          <- read.csv("tvjt_synth.csv",          stringsAsFactors = FALSE)
+corpus        <- read.csv("corpus_synth.csv",        stringsAsFactors = FALSE)
+
+cat("All datasets successfully loaded!\n")
+cat("  participants: ", nrow(participants), "rows\n")
+cat("  production:  ", nrow(production),   "rows\n")
+cat("  acceptability:", nrow(acceptability),"rows\n")
+cat("  tvjt:        ", nrow(tvjt),         "rows\n")
+cat("  corpus:      ", nrow(corpus),       "rows\n")
+```
+
+---
+
+## 1. Inspect and format the data
+
+```{r inspect, results='hold'}
+head(participants)
+str(participants)
+
+head(production)
+str(production)
+
+head(acceptability)
+str(acceptability)
+
+head(tvjt)
+str(tvjt)
+```
+
+<div class="note">
+**Key question before modelling:** What type is each outcome variable?
+
+- `peak_f0`: continuous (Hz)
+- `rating`: ordinal (1-7 Likert scale, NOT continuous)
+- `correct`: binary (0 or 1)
+- `rt_ms`: continuous but right-skewed (reaction times)
+
+Each type requires a different model family. This is the first decision in the analysis pipeline.
+</div>
+
+```{r factor-levels}
+# Reference: FSP-S-V-O (focus sensitive particle directly precedes subject)
+production$fsp_position    <- factor(production$fsp_position,
+                                     levels = c("FSP-S-V-O","S-FSP-V-O","S-V-FSP-O","S-V-O-FSP"))
+acceptability$fsp_position <- factor(acceptability$fsp_position,
+                                     levels = c("FSP-S-V-O","S-FSP-V-O","S-V-FSP-O","S-V-O-FSP"))
+tvjt$fsp_position          <- factor(tvjt$fsp_position,
+                                     levels = c("FSP-S-V-O","S-FSP-V-O","S-V-FSP-O","S-V-O-FSP"))
+
+# Context reference level: mismatch
+production$context    <- factor(production$context,    levels = c("mismatch","match"))
+acceptability$context <- factor(acceptability$context, levels = c("mismatch","match"))
+tvjt$context          <- factor(tvjt$context,          levels = c("mismatch","match"))
+
+# Rating must be an ordered factor for ordinal regression
+acceptability$rating <- factor(acceptability$rating, levels = 1:7, ordered = TRUE)
+
+cat("Factor levels set!\n")
+```
+
+---
+
+## 2. Visualize before you model
+
+Always plot your data before fitting any model. Summary statistics can be deeply misleading.
+
+### 2.1 Distribution of RT: Histogram
+
+```{r hist-rt, fig.width=8, fig.height=4}
+ggplot(tvjt, aes(x = rt_ms)) +
+  geom_histogram(bins = 40, fill = viridis(1, option = "D"), color = "#2E3440", alpha = 0.85) +
+  geom_vline(aes(xintercept = mean(rt_ms)), color = viridis(1, option = "A"),
+             linewidth = 1, linetype = "dashed") +
+  labs(
+    title    = "Distribution of response times",
+    subtitle = "Dashed line = mean. Notice the right skew and outliers.",
+    x        = "RT (ms)",
+    y        = "Count"
+  ) +
+  theme_minimal(base_size = 13)
+```
+
+<div class="note">
+**What to notice:**
+
+- The distribution is right-skewed; a long tail of slow responses
+- The mean (dashed line) is pulled toward the tail
+- A few extreme outliers are visible on the right
+
+This tells us we should log-transform RT before fitting a linear model.
+</div>
+
+### 2.2 Ratings by FSP position and context: Violin + boxplot
+
+```{r violin-ratings, fig.width=9, fig.height=5}
+ggplot(acceptability, aes(x = fsp_position, y = as.numeric(rating), fill = context)) +
+  geom_violin(position = position_dodge(0.8), alpha = 0.7) +
+  geom_boxplot(position = position_dodge(0.8), width = 0.2,
+               outlier.shape = 21, outlier.size = 1.5) +
+  scale_fill_viridis_d(option = "D", begin = 0.3, end = 0.75) +
+  labs(
+    title    = "Acceptability ratings by FSP position and context",
+    subtitle = "1 = very unacceptable, 7 = very acceptable",
+    x        = "FSP position",
+    y        = "Rating (1-7)",
+    fill     = "Context"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "top")
+```
+
+<div class="note">
+**What to notice:**
+
+- Match contexts are rated higher than mismatch contexts across all FSP positions
+- `S-FSP-V-O` (preverbal *only*) shows the most spread and the lowest match ratings
+- Ratings cluster at the high end in match conditions; ceiling effects are visible
+- This is why we need ordinal regression: the distributions are not normal, and the gaps between levels are not equal
+</div>
+
+### 2.3 F0 by FSP position: Strip chart
+
+```{r strip-f0, fig.width=8, fig.height=5}
+ggplot(production, aes(x = fsp_position, y = peak_f0, colour = fsp_position)) +
+  geom_jitter(width = 0.2, alpha = 0.35, size = 1.5) +
+  stat_summary(fun = mean, geom = "crossbar", width = 0.5,
+               colour = "#2E3440", linewidth = 0.8) +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.25,
+               colour = "#2E3440", linewidth = 0.8) +
+  scale_colour_viridis_d(option = "D") +
+  labs(
+    title    = "Peak F0 on focused constituent by FSP position",
+    subtitle = "Crossbar = mean +/- SE. Individual observations shown as points.",
+    x        = "FSP position",
+    y        = "Peak F0 (Hz)"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "none")
+```
+
+<div class="note">
+**What to notice:**
+
+- There is a clear gradient: `FSP-S-V-O` shows the highest F0, `S-V-O-FSP` the lowest
+- Individual variation is large; some participants have much higher baseline F0
+- A few outlier points are visible at the extremes
+- The group pattern is consistent despite individual differences; this is what random effects model
+</div>
+
+### 2.4 Accuracy by FSP position and context: Bar chart
+
+```{r bar-acc, fig.width=9, fig.height=5}
+tvjt_summary <- tvjt %>%
+  group_by(fsp_position, context) %>%
+  summarise(mean_acc = mean(correct), se = sd(correct) / sqrt(n()), .groups = "drop")
+
+ggplot(tvjt_summary, aes(x = fsp_position, y = mean_acc, fill = context)) +
+  geom_col(position = position_dodge(0.7), width = 0.6) +
+  geom_errorbar(aes(ymin = mean_acc - se, ymax = mean_acc + se),
+                position = position_dodge(0.7), width = 0.25) +
+  geom_hline(yintercept = 0.5, linetype = "dashed", colour = "#4C566A") +
+  scale_fill_viridis_d(option = "D", begin = 0.3, end = 0.75) +
+  scale_y_continuous(limits = c(0, 1), labels = scales::percent) +
+  labs(
+    title    = "TVJT accuracy by FSP position and context",
+    subtitle = "Dashed line = chance (50%). Error bars = +/- 1 SE.",
+    x        = "FSP position",
+    y        = "Mean accuracy",
+    fill     = "Context"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "top")
+```
+
+<div class="note">
+**What to notice:**
+
+- All conditions are well above chance; participants can assign truth values to sentences with *only*
+- Accuracy drops for mismatch conditions, especially `S-V-FSP-O`
+- We will model this with logistic regression in Section 5
+</div>
+
+---
+
+## 3. Linear mixed effects model: Peak F0
+
+**Outcome:** `peak_f0` (continuous, Hz)  
+**Question:** Does FSP position predict where pitch accent lands?
+
+```{r model-f0}
+model_f0 <- lmer(peak_f0 ~ fsp_position + context + (1 | participant_id) + (1 | item_id),
+                 data = production,
+                 REML = TRUE)
+
+summary(model_f0)
+```
+
+```{r ci-f0}
+confint(model_f0, method = "Wald")
+```
+
+<div class="note">
+**A note on NA sigma values:** Standard deviations cannot be negative. Wald intervals assume
+estimates could fall anywhere on a number line and rather than return intervals that include
+impossible values, R returns `NA`. The fixed effects intervals are unaffected. Use
+`confint(model, method = "profile")` if you need intervals for variance components.
+</div>
+
+```{r diag-f0, fig.width=9, fig.height=4}
+par(mfrow = c(1, 2))
+plot(model_f0,    main = "Residuals vs. Fitted: F0 model")
+qqnorm(resid(model_f0), main = "Q-Q plot: F0 model residuals")
+qqline(resid(model_f0), col = viridis(1, option = "A"))
+par(mfrow = c(1, 1))
+```
+
+```{r cohens-d-f0}
+residual_sd <- sigma(model_f0)
+coefs       <- fixef(model_f0)
+
+cat("Cohen's d for fixed effects:\n\n")
+for (nm in names(coefs)) {
+  d <- coefs[nm] / residual_sd
+  cat(sprintf("  %-30s d = %6.3f\n", nm, d))
+}
+cat("\nd <= 0.2 = small | d = 0.5 = medium | d >= 0.8 = large\n")
+```
+
+---
+
+## 4. Ordinal regression: Acceptability ratings
+
+**Outcome:** `rating` (ordered, 1-7)  
+**Question:** Does FSP position and context affect acceptability?
+
+### Why not lmer()?
+
+```{r wrong-model, warning=FALSE}
+acceptability$rating_num <- as.numeric(acceptability$rating)
+
+incorrect_mod <- lmer(rating_num ~ fsp_position + context + (1 | participant_id) + (1 | item_id),
+                      data = acceptability, REML = TRUE)
+```
+
+```{r qq-wrong, fig.width=5, fig.height=5}
+qqnorm(resid(incorrect_mod), main = "Q-Q plot for incorrect model (lmer on Likert ratings)")
+qqline(resid(incorrect_mod), col = viridis(1, option = "A"))
+```
+
+<div class="note">
+**Q-Q plot interpretation:** Points should fall on the diagonal if residuals are normally
+distributed. The deviation at both ends indicates the residuals are not normal, which is expected
+when a bounded ordinal outcome is forced into a linear model.
+</div>
+
+```{r impossible-values}
+range(fitted(incorrect_mod))
+```
+
+<div class="note">
+**Impossible predictions:** The range above shows fitted values outside the 1-7 scale. A model
+that predicts impossible values is misspecified regardless of whether the p-values look significant.
+</div>
+
+```{r dist-ratings, fig.width=10, fig.height=6}
+ggplot(acceptability, aes(x = rating)) +
+  geom_bar(fill = viridis(1, option = "D")) +
+  facet_wrap(~ fsp_position + context) +
+  labs(title = "Distribution of ratings by condition") +
+  theme_minimal(base_size = 12)
+```
+
+<div class="note">
+**Distribution of ratings:** Ratings cluster at discrete values and do not spread smoothly
+across the scale the way a continuous variable should. Ordinal regression models these
+discrete categories directly.
+</div>
+
+```{r means-demo, fig.width=7, fig.height=4}
+set.seed(8675309)
+demo <- data.frame(
+  condition = rep(c("A", "B"), each = 50),
+  rating    = c(
+    sample(c(1, 7), 50, replace = TRUE),
+    sample(3:5,     50, replace = TRUE)
+  )
+)
+
+demo %>% group_by(condition) %>% summarise(mean = mean(rating))
+
+ggplot(demo, aes(x = factor(rating), fill = condition)) +
+  geom_bar(position = "dodge") +
+  scale_fill_viridis_d(option = "D", begin = 0.3, end = 0.75) +
+  labs(title    = "Same mean, completely different distributions",
+       subtitle = "Linear regression cannot distinguish these -- ordinal regression can",
+       x = "Rating", y = "Count", fill = "Condition") +
+  theme_minimal(base_size = 13)
+```
+
+<div class="note">
+**The means problem:** Conditions A and B have identical means so a linear model would find no
+difference. But their distributions are completely different. Ordinal regression can detect this.
+</div>
+
+### Fit the correct model
+
+```{r model-rating}
+model_rating <- clmm(rating ~ fsp_position + context + (1 | participant_id) + (1 | item_id),
+                     data = acceptability,
+                     link = "logit")
+
+summary(model_rating)
+```
+
+```{r lrt-rating}
+model_rating_null <- clmm(rating ~ context + (1 | participant_id) + (1 | item_id),
+                           data = acceptability, link = "logit")
+
+anova(model_rating_null, model_rating)
+```
+
+<div class="note">
+**Interpreting the likelihood ratio test:** Adding FSP position significantly improves model fit.
+This tells us FSP position explains variance in acceptability over and above context alone.
+</div>
+
+---
+
+## 5. Logistic mixed effects model: TVJT accuracy
+
+**Outcome:** `correct` (binary: 0 or 1)  
+**Question:** Does FSP position and context predict whether participants correctly judge sentences?
+
+```{r model-acc, warning=TRUE}
+model_acc <- glmer(correct ~ fsp_position + context + (1 | participant_id) + (1 | item_id),
+                   data = tvjt,
+                   family = binomial(link = "logit"))
+
+summary(model_acc)
+```
+
+<div class="note">
+**Singular fit warning:** The participant random effect variance is essentially zero. The model
+is telling you there is no meaningful variation between participants in baseline accuracy. Refit
+without the participant random intercept and compare with AIC.
+</div>
+
+```{r simplify-acc}
+model_acc_nopart <- glmer(correct ~ fsp_position + context + (1 | item_id),
+                          data = tvjt, family = binomial)
+
+AIC(model_acc, model_acc_nopart)
+```
+
+<div class="note">
+The simpler model has a lower AIC so go with `model_acc_nopart`. The singular fit warning is
+resolved, the model is more parsimonious, and AIC supports the simpler structure.
+</div>
+
+```{r summary-acc-nopart}
+summary(model_acc_nopart)
+```
+
+```{r plogis-acc}
+intercept <- fixef(model_acc_nopart)["(Intercept)"]
+
+# Reference condition
+cat("P(correct): FSP-S-V-O, mismatch = ", round(plogis(intercept), 3), "\n")
+cat("P(correct): FSP-S-V-O, match =    ", round(plogis(intercept +
+                                                   fixef(model_acc_nopart)["contextmatch"]), 3), "\n\n")
+
+# FSP position effects -- only S-V-FSP-O is significant (p < .001)
+cat("P(correct): S-FSP-V-O, mismatch = ", round(plogis(intercept +
+                                                   fixef(model_acc_nopart)["fsp_positionS-FSP-V-O"]), 3), "\n")
+cat("P(correct): S-FSP-V-O, match =    ", round(plogis(intercept +
+                                                   fixef(model_acc_nopart)["fsp_positionS-FSP-V-O"] +
+                                                   fixef(model_acc_nopart)["contextmatch"]), 3), "\n\n")
+
+cat("P(correct): S-V-FSP-O, mismatch = ", round(plogis(intercept +
+                                                   fixef(model_acc_nopart)["fsp_positionS-V-FSP-O"]), 3), "\n")
+cat("P(correct): S-V-FSP-O, match =    ", round(plogis(intercept +
+                                                   fixef(model_acc_nopart)["fsp_positionS-V-FSP-O"] +
+                                                   fixef(model_acc_nopart)["contextmatch"]), 3), "\n\n")
+
+cat("P(correct): S-V-O-FSP, mismatch = ", round(plogis(intercept +
+                                                   fixef(model_acc_nopart)["fsp_positionS-V-O-FSP"]), 3), "\n")
+cat("P(correct): S-V-O-FSP, match =    ", round(plogis(intercept +
+                                                   fixef(model_acc_nopart)["fsp_positionS-V-O-FSP"] +
+                                                   fixef(model_acc_nopart)["contextmatch"]), 3), "\n")
+```
+
+<div class="note">
+**Key takeaway:** Converting from log-odds to probabilities makes the results interpretable.
+The S-V-FSP-O mismatch condition has the lowest accuracy, meaning participants have a harder
+time correctly judging sentences with *only* directly preceding the object as FALSE.
+</div>
+
+---
+
+## 6. Linear mixed effects model: Response time
+
+**Outcome:** `rt_ms` (continuous, right-skewed)  
+**Question:** Does FSP position and context predict response time?
+
+```{r compare-rt, fig.width=10, fig.height=4}
+p1 <- ggplot(tvjt, aes(x = rt_ms)) +
+  geom_histogram(bins = 40, fill = viridis(1, option = "D"), colour = "#2E3440", alpha = 0.85) +
+  labs(title = "Raw RT (ms)", x = "RT (ms)", y = "Count") +
+  theme_minimal(base_size = 12)
+
+p2 <- ggplot(tvjt, aes(x = log(rt_ms))) +
+  geom_histogram(bins = 40, fill = viridis(1, option = "E"), colour = "#2E3440", alpha = 0.85) +
+  labs(title = "Log-transformed RT", x = "log(RT)", y = "Count") +
+  theme_minimal(base_size = 12)
+
+p1 + p2
+```
+
+<div class="note">
+**Notice:** Log-transformation makes the distribution much more symmetric and closer to normal.
+This is what the linear model assumes for its residuals.
+</div>
+
+```{r model-rt}
+tvjt$log_rt <- log(tvjt$rt_ms)
+
+model_rt <- lmer(log_rt ~ fsp_position + context + (1 | participant_id) + (1 | item_id),
+                 data = tvjt,
+                 REML = TRUE)
+
+summary(model_rt)
+```
+
+```{r back-transform-rt}
+cat("Multiplicative RT effects (relative to reference condition):\n\n")
+
+fe <- fixef(model_rt)
+for (nm in names(fe)) {
+  cat(sprintf("  %-35s exp(b) = %.3f\n", nm, exp(fe[nm])))
+}
+```
+
+<div class="note">
+**Interpreting multiplicative effects:**
+
+- exp(b) = 1.0 means no effect on RT
+- exp(b) = 1.1 means RT is 10% longer
+- exp(b) = 0.9 means RT is 10% shorter
+</div>
+
+```{r diag-rt, fig.width=9, fig.height=4}
+par(mfrow = c(1, 2))
+plot(model_rt,    main = "Residuals vs. Fitted: RT model",
+     col = "grey40", col.smooth = "transparent")
+qqnorm(resid(model_rt), main = "Q-Q plot: RT model residuals")
+qqline(resid(model_rt), col = viridis(1, option = "A"))
+par(mfrow = c(1, 1))
+```
+
+---
+
+## 7. Count models: FSP occurrence in corpus data
+
+**Outcome:** `count` (non-negative integer)  
+**Question:** Does FSP position frequency vary across corpus types (register)?
+
+### 7.1 Inspect the data
+
+```{r corpus-inspect}
+corpus$corpus_type  <- factor(corpus$corpus_type,
+                               levels = c("newspaper","social_media_written",
+                                          "legal","social_media_spoken"))
+corpus$fsp_position <- factor(corpus$fsp_position,
+                               levels = c("FSP-S-V-O","S-FSP-V-O","S-V-FSP-O","S-V-O-FSP"))
+
+cat("Loaded corpus data:", nrow(corpus), "rows\n")
+
+corpus %>%
+  group_by(corpus_type) %>%
+  dplyr::slice(1) %>%
+  dplyr::select(corpus_type, corpus, word_count, excerpt)
+```
+
+### 7.2 Visualize
+
+```{r corpus-plot, fig.width=10, fig.height=5}
+corpus_summary <- corpus %>%
+  group_by(corpus_type, fsp_position) %>%
+  summarise(mean_count = mean(count), se = sd(count) / sqrt(n()), .groups = "drop")
+
+ggplot(corpus_summary, aes(x = corpus_type, y = mean_count, fill = fsp_position)) +
+  geom_col(position = position_dodge(0.75), width = 0.7) +
+  geom_errorbar(aes(ymin = mean_count - se, ymax = mean_count + se),
+                position = position_dodge(0.75), width = 0.25) +
+  scale_fill_viridis_d(option = "D") +
+  labs(
+    title    = "Mean FSP occurrence count per document by corpus type",
+    subtitle = "Error bars = +/- 1 SE. Note: document length varies by corpus type.",
+    x        = "Corpus type",
+    y        = "Mean count per document",
+    fill     = "FSP position"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "top",
+        axis.text.x = element_text(angle = 15, hjust = 1))
+```
+
+### 7.3 Check for overdispersion
+
+```{r dispersion-check}
+dispersion_check <- corpus %>%
+  group_by(fsp_position) %>%
+  summarise(
+    mean_count = mean(count),
+    var_count  = var(count),
+    ratio      = var(count) / mean(count),
+    .groups    = "drop"
+  )
+
+print(dispersion_check)
+```
+
+<div class="note">
+**What to notice:** The variance/mean ratio should be approximately 1 for Poisson data.
+Ratios well above 1 indicate overdispersion. We need negative binomial regression.
+</div>
+
+### 7.4 Fit Poisson and check
+
+```{r model-poisson, warning=FALSE}
+model_poisson <- glmer(count ~ fsp_position + corpus_type + offset(log(word_count)) +
+                         (1 | corpus),
+                       data   = corpus,
+                       family = poisson(link = "log"))
+
+cat("Residual deviance:", deviance(model_poisson), "\n")
+cat("Residual degrees of freedom:", df.residual(model_poisson), "\n")
+cat("Ratio (should be ~1 for Poisson):", round(deviance(model_poisson) / df.residual(model_poisson), 2), "\n")
+```
+
+<div class="note">
+If the ratio is much greater than 1, the Poisson model is a poor fit. Use negative binomial.
+</div>
+
+### 7.5 Fit negative binomial
+
+```{r model-nb}
+model_nb <- glmer.nb(count ~ fsp_position + corpus_type + offset(log(word_count)) +
+                       (1 | corpus),
+                     data = corpus)
+
+summary(model_nb)
+```
+
+```{r rate-ratios}
+cat("Rate ratios (exp(b)) relative to reference (FSP-S-V-O, newspaper):\n\n")
+fe <- fixef(model_nb)
+for (nm in names(fe)) {
+  cat(sprintf("  %-45s exp(b) = %.3f\n", nm, exp(fe[nm])))
+}
+```
+
+<div class="note">
+**Interpreting rate ratios:**
+
+- exp(b) = 1.0 means no difference in rate
+- exp(b) = 2.0 means twice the rate of the reference condition
+- exp(b) = 0.5 means half the rate of the reference condition
+</div>
+
+```{r aic-compare}
+cat("Poisson AIC:          ", AIC(model_poisson), "\n")
+cat("Negative binomial AIC:", AIC(model_nb), "\n")
+cat("\nLower AIC = better fit. A difference > 2 is meaningful.\n")
+```
+
+---
+
+## Summary
+
+| Task | Outcome | Model | R function |
+|------|---------|-------|------------|
+| Production | Peak F0 (Hz) | Linear mixed effects | `lmer()` |
+| Acceptability | Rating (1-7) | Ordinal regression | `clmm()` |
+| TVJT | Accuracy (0/1) | Logistic mixed effects | `glmer()` |
+| TVJT | Response time (ms) | Linear mixed effects on log RT | `lmer()` |
+| Corpus | FSP occurrence count | Negative binomial mixed effects | `glmer.nb()` |
+
+### Key methodological takeaways
+
+**Your outcome variable drives everything**
+
+- Every modelling decision started with asking what type of variable your outcome is
+- Getting this wrong may produce results that look fine, but in fact, are not
+
+**Always visualize before you model**
+
+- The RT histogram revealed right skew before we fitted anything, which is why we log-transformed
+- Rating distributions showed discrete clustering, which is why we used `clmm()` not `lmer()`
+- Plots can make the modelling decisions obvious before running a single model
+
+**It is important to consider random effects**
+
+- Models included random intercepts for the appropriate grouping factors
+- The logistic model flagged a singular fit, which led us to simplify and produce a better model
+
+**Model comparison is part of the analysis**
+
+- Likelihood ratio test to justify the ordinal model over the null
+- AIC to confirm choice between Poisson and negative binomial
+- AIC to resolve the singular fit in the logistic model
+- Model selection is built into the pipeline, not an afterthought
+
+**Multiple tasks reveal a richer picture**
+
+- FSP position affected F0, acceptability, accuracy, and RT, but not always the same positions
+- S-V-FSP-O was the hardest condition in accuracy and RT
+- S-FSP-V-O showed an acceptability penalty but not an accuracy penalty
+- A single task and a single model would have missed these nuances
+
+**Assumption checking leads to better decisions**
+
+- Residuals and Q-Q plots for linear models
+- Dispersion test for count data
+- Singular fit check for all mixed models
+
+---
+
+*Workshop materials by Lindsay Hracs for CLA 2026 Crash Course*  
+*Contact: lindsay[dot]hracs[at]ucalgary[dot]ca*
